@@ -4,16 +4,3 @@
   "book-reviews": [],
   "sat-notes": []
 }
-```
-(Or copy the example from the first artifact with sample posts)
-
-### 3. **Create `js/blog.js`**
-Copy the JavaScript code from the first artifact
-
-### 4. **Create your posts directory structure:**
-```
-posts/
-├── technical/
-├── case-studies/
-├── book-reviews/
-└── sat-notes/
