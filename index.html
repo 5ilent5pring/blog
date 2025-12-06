@@ -36,7 +36,6 @@
             overflow-x: hidden;
         }
 
-        /* Animated background grid */
         body::before {
             content: '';
             position: fixed;
@@ -66,7 +65,6 @@
             z-index: 1;
         }
 
-        /* Unique asymmetric header */
         header {
             padding: 2rem 0 1.5rem;
             position: relative;
@@ -160,7 +158,6 @@
             transform: skewX(-5deg);
         }
 
-        /* Unique hero with glitch effect */
         .hero {
             padding: 6rem 0 4rem;
             position: relative;
@@ -231,7 +228,6 @@
             color: var(--primary);
         }
 
-        /* Unique asymmetric grid */
         .content {
             padding: 3rem 0;
         }
@@ -266,7 +262,6 @@
             background: var(--primary);
         }
 
-        /* Asymmetric card layout */
         .cards-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -382,7 +377,6 @@
             color: var(--bg-dark);
         }
 
-        /* About section styling */
         .about-section {
             max-width: 900px;
         }
@@ -438,12 +432,7 @@
             min-height: 60vh;
         }
 
-        /* Mobile responsiveness */
         @media (max-width: 768px) {
-            header::after {
-                width: 100px;
-            }
-
             .nav-container {
                 gap: 0.5rem;
             }
@@ -516,12 +505,7 @@
             <div class="content container">
                 <h2 class="page-title">LATEST_POSTS</h2>
                 <div class="cards-grid">
-                    <div class="card">
-                        <div class="meta">Technical Writing • Dec 2024</div>
-                        <h3>YOUR_FIRST_POST.md</h3>
-                        <p>Start documenting your cybersecurity research, findings, and technical analysis for the community.</p>
-                        <a href="#" class="btn">Read More</a>
-                    </div>
+                    <!-- Posts will be loaded here by JavaScript -->
                 </div>
             </div>
         </div>
@@ -537,7 +521,7 @@
                     <h3 style="color: var(--primary); margin-top: 2.5rem; margin-bottom: 1.5rem; font-size: 1.5rem;">FOCUS_AREAS</h3>
                     <div class="skills">
                         <span class="skill-tag">CYBER THREAT INTELLIGENCE</span>
-                        <span class="skill-tag">WEB SECURITY/span>
+                        <span class="skill-tag">WEB SECURITY</span>
                         <span class="skill-tag">OSINT</span>
                     </div>
                 </div>
@@ -550,11 +534,7 @@
                 <p style="color: var(--text-muted); margin-bottom: 2rem;">// Structured Analytic Techniques</p>
                 
                 <div class="cards-grid">
-                    <div class="card">
-                        <div class="meta">Coming Soon</div>
-                        <h3>SAT_METHODOLOGY.md</h3>
-                        <p>Comprehensive notes on security assessment techniques, penetration testing frameworks, and certification preparation materials.</p>
-                    </div>
+                    <!-- Posts will be loaded here by JavaScript -->
                 </div>
             </div>
         </div>
@@ -565,11 +545,7 @@
                 <p style="color: var(--text-muted); margin-bottom: 2rem;">// Critical analysis of cybersecurity literature and technical publications</p>
                 
                 <div class="cards-grid">
-                    <div class="card">
-                        <div class="meta">Book Review</div>
-                        <h3>YOUR_FIRST_REVIEW.md</h3>
-                        <p>In-depth reviews of cybersecurity books, technical manuals, and essential reading for security professionals.</p>
-                    </div>
+                    <!-- Posts will be loaded here by JavaScript -->
                 </div>
             </div>
         </div>
@@ -580,11 +556,7 @@
                 <p style="color: var(--text-muted); margin-bottom: 2rem;">// Real-world security incidents, attack vectors, and defense analysis</p>
                 
                 <div class="cards-grid">
-                    <div class="card">
-                        <div class="meta">Case Study</div>
-                        <h3>INCIDENT_ANALYSIS_001.md</h3>
-                        <p>Detailed technical breakdown of security incidents, breach post-mortems, and lessons learned from real-world scenarios.</p>
-                    </div>
+                    <!-- Posts will be loaded here by JavaScript -->
                 </div>
             </div>
         </div>
@@ -595,11 +567,7 @@
                 <p style="color: var(--text-muted); margin-bottom: 2rem;">// Deep technical analysis, tool development, and security research</p>
                 
                 <div class="cards-grid">
-                    <div class="card">
-                        <div class="meta">Technical Article</div>
-                        <h3>EXPLOIT_DEV_001.md</h3>
-                        <p>Advanced technical articles covering vulnerability research, exploit development, tool creation, and defense mechanisms.</p>
-                    </div>
+                    <!-- Posts will be loaded here by JavaScript -->
                 </div>
             </div>
         </div>
@@ -607,10 +575,11 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 5ilent5pring // All rigts reserved</p>
+            <p>&copy; 2025 5ilent5pring // All rights reserved</p>
         </div>
     </footer>
 
+    <script src="js/blog.js"></script>
     <script>
         function showPage(pageName, event) {
             if (event) event.preventDefault();
