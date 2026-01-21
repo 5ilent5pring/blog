@@ -1,14 +1,17 @@
 {
-  "technical": [
-    {
-      "title": "",
-      "date": "",
-      "description": "",
-      "link": "posts//ach_101.html",
-      "tags": []
-    }
-  ],
+  "technical": [],
   "case-studies": [],
   "book-reviews": [],
-  "sat-notes": []
+  "sat-notes": [
+    {
+      "title": "ACH 101",
+      "date": "2026-01-22",
+      "description": "A quick primer on Richards Heuer's technique.",
+      "link": "posts/sat-notes/ach_101.html",
+      "tags": [
+        "CTI",
+        "Methodology"
+      ]
+    }
+  ]
 }
