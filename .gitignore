@@ -1,0 +1,12 @@
+# Ignore compiled binaries
+*.exe
+*.o
+main
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore personal config
+.env
+secret.json
