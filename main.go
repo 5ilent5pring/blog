@@ -101,6 +101,7 @@ func main() {
 		}
 		
 		metaData := meta.Get(context)
+		fmt.Printf("DEBUG [%s]: %v\n", info.Name(), metaData)
 		
 		// Safely extract metadata fields
 		title := getString(metaData, "title")
