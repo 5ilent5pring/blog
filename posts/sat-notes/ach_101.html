@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACH 101 - 5ilent5pring</title>
+    <title>ACH 101: Stop Trusting Your Gut - 5ilent5pring</title>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
          
@@ -22,21 +22,59 @@
 <body>
     <a href="../../index.html" class="back-btn">← ../return_to_base</a>
     <article>
-        <h1>ACH 101</h1>
+        <h1>ACH 101: Stop Trusting Your Gut</h1>
         <div class="metadata">
             <span>> DATE: 2026-01-22</span> | 
             <span>> CATEGORY: sat-notes</span>
         </div>
         
-        <h3>The Problem: Our Brains Cheat</h3>
-<p>When analysts see a new cyberattack, our brains instantly try to fit the data into a pattern we already know. This is called <strong>Satisficing</strong>.</p>
-<h3>The Solution: ACH</h3>
-<p>Analysis of Competing Hypotheses forces you to refute hypotheses rather than confirm them.</p>
+        <h3>The Attribution Trap</h3>
+<p>You see an alert. Valid credentials. Weird time of day.</p>
+<p>Your brain immediately whispers: <em>&quot;It's a compromised account.&quot;</em> Or maybe: <em>&quot;It's an insider threat.&quot;</em> Stop. That is your brain being lazy. We call it <strong>Satisficing</strong>—grabbing the first explanation that fits the facts so you can close the ticket and go to lunch. In CTI, this gets people fired and breaches missed.</p>
+<p>Richards Heuer (CIA) developed <strong>Analysis of Competing Hypotheses (ACH)</strong> to fix this. The rule is simple: <strong>You don't look for evidence that proves you right. You look for evidence that proves you WRONG.</strong></p>
+<hr>
+<h3>Field Note: The &quot;California&quot; Login</h3>
+<p>Let's look at a scenario based on real tactics used by <strong>Volt Typhoon</strong> (the Chinese state-sponsored group known for living off the land).</p>
+<p><strong>The Alert:</strong> <code>GET /api/v1/users/export</code></p>
+<ul>
+<li><strong>Status:</strong> 200 OK</li>
+<li><strong>User:</strong> <code>admin_jdoe</code> (Valid API Key)</li>
+<li><strong>Source:</strong> 192.168.x.x (Residential ISP, San Jose, CA)</li>
+<li><strong>Time:</strong> 03:14 AM PST</li>
+</ul>
+<p><strong>The Knee-Jerk Reaction:</strong>
+&quot;It's 3 AM in California. John Doe is probably awake and working late. I'll just Slack him to confirm.&quot;
+<em>(If you do this, you might tip off the adversary).</em></p>
+<p><strong>The ACH Approach:</strong>
+We build a matrix. We test three theories against the hard data.</p>
 <ol>
-<li>List Hypotheses.</li>
-<li>List Evidence.</li>
-<li>Cross-reference them in a matrix.</li>
+<li><strong>H1:</strong> John is working late (Insider/Benign).</li>
+<li><strong>H2:</strong> Access Broker bought the key (Cybercrime).</li>
+<li><strong>H3:</strong> Volt Typhoon via KV-Botnet (APT).</li>
 </ol>
+<h4>The Evidence Matrix</h4>
+<p>| Artifact | H1: John (Benign) | H2: Broker (Crime) | H3: APT (Volt Typhoon) |
+| :--- | :---: | :---: | :---: |
+| <strong>Valid API Key</strong> | <strong>+</strong> | <strong>+</strong> | <strong>+</strong> |
+| <strong>Residential IP</strong> | <strong>+</strong> | <strong>-</strong> | <strong>+</strong> |
+| <strong>User-Agent: curl/7.88</strong> | <strong>-</strong> | <strong>+</strong> | <strong>+</strong> |
+| <strong>Session Duration: 4s</strong> | <strong>-</strong> | <strong>-</strong> | <strong>+</strong> |</p>
+<h3>The Diagnosis</h3>
+<p>Look at the <strong>Valid API Key</strong>. It supports <em>everyone</em>. In ACH terms, this evidence is trash. It has <strong>zero diagnostic value</strong> because it doesn't help us discriminate between a sysadmin and a state actor.</p>
+<p>Now look at the <strong>Residential IP</strong>.</p>
+<ul>
+<li><strong>H1 (John):</strong> Fits. He's at home.</li>
+<li><strong>H2 (Crime):</strong> Does not fit. Criminals use Tor, VPNs, or cheap VPS hosting. They rarely have clean, residential IPs in the target's own city.</li>
+<li><strong>H3 (APT):</strong> <strong>Perfect fit.</strong> Volt Typhoon routes traffic through compromised SOHO routers (Netgear/Cisco) to blend in with local traffic.</li>
+</ul>
+<p><strong>The Kicker:</strong>
+The session lasted <strong>4 seconds</strong> and used <code>curl</code>.
+John doesn't type that fast. He uses the web UI.
+A criminal broker usually explores manually with Burp Suite.
+A script (APT) grabs exactly what it needs and vanishes.</p>
+<h3>Final Verdict</h3>
+<p>If you went with your gut (&quot;It's John&quot;), you missed a nation-state actor tunneling through a compromised router in San Jose. ACH forced us to see that the &quot;boring&quot; evidence (Residential IP) was actually the smoking gun for <strong>H3</strong>.</p>
+<p>Don't prove yourself right. Prove yourself wrong.</p>
 
         
     </article>
