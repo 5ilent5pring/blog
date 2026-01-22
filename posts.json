@@ -4,13 +4,15 @@
   "book-reviews": [],
   "sat-notes": [
     {
-      "title": "ACH 101",
+      "title": "ACH 101: Stop Trusting Your Gut",
       "date": "2026-01-22",
-      "description": "A quick primer on Richards Heuer's technique.",
+      "description": "Why attribution is a trap, and how Analysis of Competing Hypotheses (ACH) saves you from firing the wrong admin.",
       "link": "posts/sat-notes/ach_101.html",
       "tags": [
         "CTI",
-        "Methodology"
+        "Methodology",
+        "Volt Typhoon",
+        "Tradecraft"
       ]
     }
   ]
