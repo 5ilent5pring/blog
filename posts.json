@@ -51,6 +51,27 @@
       ]
     },
     {
+      "title": "Operation Atlantic: Assessing the Limits of Multi-Jurisdictional Crypto-Asset Seizures",
+      "date": "2026-04-13",
+      "description": "The UK National Crime Agency, alongside US and Canadian law enforcement, successfully froze $12 million in cryptocurrency following a week-long crackdown on 'approval phishing' networks.",
+      "link": "posts/geoCTI/operation_atlantic_assessing_the_limits_of_multi-jurisdictio_7b0cf66e.html",
+      "tags": [
+        "Binance",
+        "CTI",
+        "Chainalysis",
+        "Coinbase",
+        "Cyber Policy",
+        "Elliptics",
+        "National Crime Agency (UK)",
+        "Ontario Provincial Police",
+        "TRM Labs",
+        "US Secret Service",
+        "policy",
+        "security-news",
+        "threats"
+      ]
+    },
+    {
       "title": "PlugX Deployment via Claude-Branded Phishing Targets AI-Adopting Workforces",
       "date": "2026-04-13",
       "description": "Threat actors are weaponizing the rapid adoption of Large Language Models by deploying a trojanized Anthropic Claude installer to compromise end-user workstations.",
