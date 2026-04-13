@@ -73,6 +73,22 @@
       ]
     },
     {
+      "title": "FBI-Indonesian Police Takedown of W3LL Phishing Network Disrupts $20M Fraud Infrastructure",
+      "date": "2026-04-13",
+      "description": "The FBI and Indonesian National Police successfully dismantled the W3LL phishing toolkit infrastructure, targeting a global operation responsible for $20 million in attempted fraud.",
+      "link": "posts/geoCTI/fbi-indonesian_police_takedown_of_w3ll_phishing_network_disr_6bc63e45.html",
+      "tags": [
+        "CTI",
+        "Cyber Policy",
+        "FBI",
+        "Indonesian National Police",
+        "W3LL developer",
+        "attacks",
+        "breaking",
+        "vulnerabilities"
+      ]
+    },
+    {
       "title": "Fiber Optic Interception and PDF Zero-Days: Assessing Infrastructure Vulnerability",
       "date": "2026-04-13",
       "description": "State-sponsored actors have successfully compromised fiber optic infrastructure to facilitate long-term signal intelligence collection.",
