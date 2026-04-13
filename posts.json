@@ -32,6 +32,23 @@
         "breaking",
         "vulnerabilities"
       ]
+    },
+    {
+      "title": "OpenAI Certificate Revocation: Assessing the Scope of the Axios Supply Chain Breach",
+      "date": "2026-04-13",
+      "description": "The compromise of the Axios npm package via the malicious 'plain-crypto-js' dependency allowed the North Korean group UNC1069 to execute the WAVESHAPER.V2 backdoor within OpenAI's macOS application...",
+      "link": "posts/geoCTI/openai_certificate_revocation_assessing_the_scope_of_the_axi_ab85079f.html",
+      "tags": [
+        "Apple",
+        "CTI",
+        "Espionage",
+        "OpenAI",
+        "TeamPCP",
+        "UNC1069",
+        "attacks",
+        "breaking",
+        "vulnerabilities"
+      ]
     }
   ]
 }
