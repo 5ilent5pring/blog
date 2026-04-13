@@ -2,8 +2,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // 1. Handle deep-linking (if someone visits 5ilent5pring.org/#sat)
     const hash = window.location.hash.replace('#', '');
     if (hash) {
-        // This function is defined in your index.html
-        if (typeof showPage === 'function') showPage(hash);
+        // Normalize category names to page IDs
+        // (e.g. "geoCTI" from template → "geocti" for showPage)
+        const pageMap = {
+            'geoCTI': 'geocti',
+            'sat-notes': 'sat',
+            'book-reviews': 'books',
+            'case-studies': 'cases'
+        };
+        const page = pageMap[hash] || hash;
+        if (typeof showPage === 'function') showPage(page);
     }
 
     // 2. Fetch the post database with a Cache Buster (?t=...)
