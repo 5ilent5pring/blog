@@ -16,5 +16,22 @@
       ]
     }
   ],
-  "geoCTI": []
+  "geoCTI": [
+    {
+      "title": "APT37's Use of Facebook and RokRAT Reveals a Shift Toward Social Engineering-Driven Espionage",
+      "date": "2026-04-13",
+      "description": "North Korean threat actor APT37 has deployed a multi-stage infection chain leveraging Facebook social engineering to deliver the RokRAT malware.",
+      "link": "posts/geoCTI/apt37s_use_of_facebook_and_rokrat_reveals_a_shift_toward_soc_c064c133.html",
+      "tags": [
+        "APT37",
+        "Attribution",
+        "CTI",
+        "Genians Security Center",
+        "Zscaler ThreatLabz",
+        "attacks",
+        "breaking",
+        "vulnerabilities"
+      ]
+    }
+  ]
 }
