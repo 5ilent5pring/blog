@@ -16,7 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 'sat-notes': 'sat-page',
                 'technical': 'technical-page',
                 'case-studies': 'cases-page',
-                'book-reviews': 'books-page'
+                'book-reviews': 'books-page',
+                'geoCTI': 'geocti-page'
             };
 
             // Populate each specific category page

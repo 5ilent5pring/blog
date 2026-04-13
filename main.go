@@ -39,6 +39,7 @@ type DBStructure struct {
 	CaseStudies []PostEntry `json:"case-studies"`
 	BookReviews []PostEntry `json:"book-reviews"`
 	SATNotes    []PostEntry `json:"sat-notes"`
+	GeoCTI      []PostEntry `json:"geoCTI"`
 }
 
 type PostEntry struct {
@@ -76,6 +77,7 @@ func main() {
 		CaseStudies: []PostEntry{},
 		BookReviews: []PostEntry{},
 		SATNotes:    []PostEntry{},
+		GeoCTI:      []PostEntry{},
 	}
 
 	// 4. Walk through Content Directory
@@ -156,6 +158,8 @@ func main() {
 			db.CaseStudies = append(db.CaseStudies, entry)
 		case "book-reviews":
 			db.BookReviews = append(db.BookReviews, entry)
+		case "geoCTI":
+			db.GeoCTI = append(db.GeoCTI, entry)
 		default:
 			// Default bucket or handle error
 			db.Technical = append(db.Technical, entry)
