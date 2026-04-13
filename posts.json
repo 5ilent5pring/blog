@@ -51,6 +51,21 @@
       ]
     },
     {
+      "title": "PlugX Deployment via Claude-Branded Phishing Targets AI-Adopting Workforces",
+      "date": "2026-04-13",
+      "description": "Threat actors are weaponizing the rapid adoption of Large Language Models by deploying a trojanized Anthropic Claude installer to compromise end-user workstations.",
+      "link": "posts/geoCTI/plugx_deployment_via_claude-branded_phishing_targets_ai-adop_f1f3d8af.html",
+      "tags": [
+        "Alibaba Cloud",
+        "Anthropic",
+        "CTI",
+        "Espionage",
+        "attacks",
+        "security-news",
+        "vulnerabilities"
+      ]
+    },
+    {
       "title": "Watering Hole Attack on CPUID Website Leverages DLL Sideloading for STX RAT Distribution",
       "date": "2026-04-13",
       "description": "Threat actors compromised a secondary API on the CPUID website to redirect users to malicious installers for hardware monitoring tools like CPU-Z and HWMonitor.",
