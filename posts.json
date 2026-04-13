@@ -173,6 +173,22 @@
       ]
     },
     {
+      "title": "US-Indonesia Cooperation Targets W3LL Phishing Infrastructure",
+      "date": "2026-04-13",
+      "description": "The FBI Atlanta Field Office and Indonesian authorities successfully dismantled the W3LL phishing platform and arrested its developer.",
+      "link": "posts/geoCTI/us-indonesia_cooperation_targets_w3ll_phishing_infrastructur_0d62f8ef.html",
+      "tags": [
+        "CTI",
+        "Cyber Policy",
+        "FBI Atlanta Field Office",
+        "Indonesian authorities",
+        "W3LL developer",
+        "cybercrime",
+        "malware",
+        "ransomware"
+      ]
+    },
+    {
       "title": "Watering Hole Attack on CPUID Website Leverages DLL Sideloading for STX RAT Distribution",
       "date": "2026-04-13",
       "description": "Threat actors compromised a secondary API on the CPUID website to redirect users to malicious installers for hardware monitoring tools like CPU-Z and HWMonitor.",
