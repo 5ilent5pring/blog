@@ -49,6 +49,22 @@
         "breaking",
         "vulnerabilities"
       ]
+    },
+    {
+      "title": "Watering Hole Attack on CPUID Website Leverages DLL Sideloading for STX RAT Distribution",
+      "date": "2026-04-13",
+      "description": "Threat actors compromised a secondary API on the CPUID website to redirect users to malicious installers for hardware monitoring tools like CPU-Z and HWMonitor.",
+      "link": "posts/geoCTI/watering_hole_attack_on_cpuid_website_leverages_dll_sideload_864ef8bc.html",
+      "tags": [
+        "Analysis",
+        "Breakglass Intelligence",
+        "CPUID",
+        "CTI",
+        "Kaspersky",
+        "attacks",
+        "security-news",
+        "vulnerabilities"
+      ]
     }
   ]
 }
