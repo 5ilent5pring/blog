@@ -18,6 +18,29 @@
   ],
   "geoCTI": [
     {
+      "title": "AI-Augmented Exploitation in the Mexican Government Breach: From Data Exfiltration to Automated Forgery",
+      "date": "2026-04-13",
+      "description": "A single operator leveraged Claude Code and ChatGPT to breach nine Mexican government entities between December 2025 and February 2026, compromising hundreds of millions of records.",
+      "link": "posts/geoCTI/ai-augmented_exploitation_in_the_mexican_government_breach_f_823e6a8a.html",
+      "tags": [
+        "CTI",
+        "Espionage",
+        "Estado de México",
+        "INE (National Electoral Institute)",
+        "Jalisco State Government",
+        "Michoacán State Government",
+        "Registro Civil de CDMX",
+        "SADM Monterrey",
+        "SAT (Federal Tax Authority)",
+        "Salud CDMX",
+        "Tamaulipas State Government",
+        "apt",
+        "dark-web",
+        "threat-intelligence",
+        "vulnerabilities"
+      ]
+    },
+    {
       "title": "APT37's Use of Facebook and RokRAT Reveals a Shift Toward Social Engineering-Driven Espionage",
       "date": "2026-04-13",
       "description": "North Korean threat actor APT37 has deployed a multi-stage infection chain leveraging Facebook social engineering to deliver the RokRAT malware.",
