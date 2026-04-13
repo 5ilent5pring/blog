@@ -34,6 +34,22 @@
       ]
     },
     {
+      "title": "Compromised macOS Code Signing Certificate in Axios Supply Chain Attack Targets OpenAI",
+      "date": "2026-04-13",
+      "description": "North Korean-linked actors successfully compromised a macOS code signing certificate via the Axios supply chain to impact OpenAI's environment.",
+      "link": "posts/geoCTI/compromised_macos_code_signing_certificate_in_axios_supply_c_a6376cc0.html",
+      "tags": [
+        "Axios",
+        "CTI",
+        "Espionage",
+        "North Korea",
+        "OpenAI",
+        "attacks",
+        "security-news",
+        "vulnerabilities"
+      ]
+    },
+    {
       "title": "Indonesia’s Disinformation Bill: Legal Expansion as a Tool for Domestic Political Control",
       "date": "2026-04-13",
       "description": "The Indonesian government, led by Coordinating Minister Yusril Ihza Mahendra, is advancing a new legislative framework to regulate 'foreign propaganda' and disinformation.",
