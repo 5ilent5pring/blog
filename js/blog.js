@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             Object.keys(mapping).forEach(jsonKey => {
                 const targetId = mapping[jsonKey];
                 const posts = data[jsonKey] || [];
-                renderToGrid(posts, targetId);
+                renderToGrid(sortPostsChronologically(posts), targetId);
             });
 
             // Populate the Home Page with the 6 most recent articles
@@ -68,12 +68,17 @@ function renderHome(data) {
         allPosts = allPosts.concat(categoryArray);
     });
 
-    // Sort by date (newest first)
-    allPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
-
     // Render top 6
-    const latest = allPosts.slice(0, 6);
+    const latest = sortPostsChronologically(allPosts).slice(0, 6);
     container.innerHTML = latest.map(post => createCard(post)).join('');
+}
+
+function sortPostsChronologically(posts) {
+    return [...posts].sort((a, b) => {
+        const dateDiff = new Date(b.date) - new Date(a.date);
+        if (dateDiff !== 0) return dateDiff;
+        return (a.title || '').localeCompare(b.title || '');
+    });
 }
 
 /**

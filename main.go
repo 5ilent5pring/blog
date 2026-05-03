@@ -8,12 +8,14 @@ import (
 	"io/ioutil"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
-
+	"time"
 
 	"github.com/yuin/goldmark"
 	meta "github.com/yuin/goldmark-meta"
 	"github.com/yuin/goldmark/parser"
+	"github.com/yuin/goldmark/renderer/html"
 )
 
 // Config
@@ -51,10 +53,15 @@ type PostEntry struct {
 }
 
 func main() {
-	// 1. Initialize Markdown parser with Frontmatter support
+	// 1. Initialize Markdown parser with Frontmatter support.
+	// WithUnsafe lets posts include raw HTML (e.g. <p class="analysis-meta">) —
+	// content is authored locally so XSS isn't a concern.
 	markdown := goldmark.New(
 		goldmark.WithExtensions(
 			meta.Meta,
+		),
+		goldmark.WithRendererOptions(
+			html.WithUnsafe(),
 		),
 	)
 
@@ -101,10 +108,10 @@ func main() {
 		if err := markdown.Convert(source, &buf, parser.WithContext(context)); err != nil {
 			return err
 		}
-		
+
 		metaData := meta.Get(context)
 		fmt.Printf("DEBUG [%s]: %v\n", info.Name(), metaData)
-		
+
 		// Safely extract metadata fields
 		title := getString(metaData, "title")
 		date := getString(metaData, "date")
@@ -117,9 +124,9 @@ func main() {
 		cleanName := strings.TrimSuffix(info.Name(), ".md")
 		catDir := filepath.Join(OutputDir, category)
 		os.MkdirAll(catDir, 0755)
-		
+
 		outPath := filepath.Join(catDir, cleanName+".html")
-		
+
 		// Render Final HTML using text/template
 		// We use template.HTML for content to prevent escaping the HTML tags we just generated
 		data := map[string]interface{}{
@@ -172,10 +179,34 @@ func main() {
 		fmt.Printf("Error walking path: %v\n", err)
 	}
 
+	// Keep every category aligned chronologically for the frontend.
+	sortPostEntries(db.Technical)
+	sortPostEntries(db.CaseStudies)
+	sortPostEntries(db.BookReviews)
+	sortPostEntries(db.SATNotes)
+	sortPostEntries(db.GeoCTI)
+
 	// 5. Write posts.json
 	jsonData, _ := json.MarshalIndent(db, "", "  ")
 	ioutil.WriteFile(DBFile, jsonData, 0644)
 	fmt.Println("[SUCCESS] Database updated.")
+}
+
+func sortPostEntries(posts []PostEntry) {
+	sort.SliceStable(posts, func(i, j int) bool {
+		iDate, iErr := time.Parse("2006-01-02", posts[i].Date)
+		jDate, jErr := time.Parse("2006-01-02", posts[j].Date)
+		if iErr == nil && jErr == nil && !iDate.Equal(jDate) {
+			return iDate.After(jDate)
+		}
+		if posts[i].Date != posts[j].Date {
+			return posts[i].Date > posts[j].Date
+		}
+		if posts[i].Title != posts[j].Title {
+			return posts[i].Title < posts[j].Title
+		}
+		return posts[i].Link < posts[j].Link
+	})
 }
 
 // Helpers to handle the interface{} types from goldmark-meta
