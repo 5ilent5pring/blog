@@ -73,6 +73,46 @@
       ]
     },
     {
+      "title": "CVE-2026-31431 Exploitation: The Threat to Cloud-Native Kubernetes Integrity",
+      "date": "2026-05-04",
+      "description": "The discovery of the 'Copy Fail' vulnerability (CVE-2026-31431) within the Linux kernel's crypto-subsystem provides a mechanism for unprivileged users to achieve root access across major distributions including Ubuntu, Red Hat, and Amazon Linux.",
+      "link": "posts/geoCTI/cve_2026_31431_exploitation_the_threat_to_cloud_native_kuber_2d278338.html",
+      "tags": [
+        "Microsoft Defender",
+        "CISA",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Data Exfiltration from Moldova's CNAM Database: Strategic Intelligence or Opportunistic Theft?",
+      "date": "2026-05-04",
+      "description": "An unidentified hacking group successfully exfiltrated personal and financial data from Moldova's National Health Insurance Agency (CNAM), compromising the records of a significant portion of the Moldovan population.",
+      "link": "posts/geoCTI/data_exfiltration_from_moldovas_cnam_database_strategic_inte_9fe71e2e.html",
+      "tags": [
+        "CNAM",
+        "Moldova's Cybersecurity Agency",
+        "Russia",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Extortion-Driven DDoS: Assessing the Pro-Iran Campaign Against Canonical",
+      "date": "2026-05-04",
+      "description": "A pro-Iran hacktivist group has transitioned from disruptive DDoS attacks to an active extortion campaign targeting Canonical's web infrastructure.",
+      "link": "posts/geoCTI/extortion_driven_ddos_assessing_the_pro_iran_campaign_agains_5fe84593.html",
+      "tags": [
+        "Canonical",
+        "Pro-Iran hacktivist group",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "FBI-Indonesian Police Takedown of W3LL Phishing Network Disrupts $20M Fraud Infrastructure",
       "date": "2026-04-13",
       "description": "The FBI and Indonesian National Police successfully dismantled the W3LL phishing toolkit infrastructure, targeting a global operation responsible for $20 million in attempted fraud.",
@@ -173,6 +213,79 @@
       ]
     },
     {
+      "title": "Post-Shai Hulud npm Supply Chain Evolution: From Package Poisoning to CI/CD Persistence",
+      "date": "2026-05-04",
+      "description": "The npm ecosystem has transitioned from simple package poisoning to a more durable threat model involving wormable malware and CI/CD pipeline persistence.",
+      "link": "posts/geoCTI/post_shai_hulud_npm_supply_chain_evolution_from_package_pois_870b4204.html",
+      "tags": [
+        "Unit 42",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "SHADOW-EARTH-053 Operations Target NATO and Asian Government Sectors",
+      "date": "2026-05-04",
+      "description": "A China-aligned threat cluster, designated SHADOW-EARTH-053 by Trend Micro, has executed a coordinated espionage campaign against government, defense, and media targets in South, East, and Southeast Asia, alongside a single NATO member state.",
+      "link": "posts/geoCTI/shadow_earth_053_operations_target_nato_and_asian_government_2efc0bb9.html",
+      "tags": [
+        "SHADOW-EARTH-053",
+        "Trend Micro",
+        "NATO",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The Erosion of Medical Neutrality: Lessons from Russian Targeting in Ukraine",
+      "date": "2026-05-04",
+      "description": "Russian forces in Ukraine have transitioned from incidental damage to the deliberate targeting of aid stations, evacuation routes, and trauma teams.",
+      "link": "posts/geoCTI/the_erosion_of_medical_neutrality_lessons_from_russian_targe_f5475bd3.html",
+      "tags": [
+        "Russia",
+        "Ukraine",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The Silicon Valley-Pentagon Nexus: Weaponizing LLMs in the Iran-US Conflict",
+      "date": "2026-05-04",
+      "description": "The legal dispute between Elon Musk and Sam Altman over OpenAI's mission shift masks a deeper integration of frontier AI into US kinetic operations.",
+      "link": "posts/geoCTI/the_silicon_valley_pentagon_nexus_weaponizing_llms_in_the_ir_bddc06e5.html",
+      "tags": [
+        "Elon Musk",
+        "Sam Altman",
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "xAI",
+        "US Department of War",
+        "Iran",
+        "Trump Administration",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Trellix Source Code Breach: Assessing the Risk of Downstream Vulnerability Injection",
+      "date": "2026-05-04",
+      "description": "Trellix has confirmed that an unauthorized actor gained access to a portion of its source code repository.",
+      "link": "posts/geoCTI/trellix_source_code_breach_assessing_the_risk_of_downstream_ecac508a.html",
+      "tags": [
+        "Trellix",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "US-Indonesia Cooperation Targets W3LL Phishing Infrastructure",
       "date": "2026-04-13",
       "description": "The FBI Atlanta Field Office and Indonesian authorities successfully dismantled the W3LL phishing platform and arrested its developer.",
@@ -186,6 +299,25 @@
         "cybercrime",
         "malware",
         "ransomware"
+      ]
+    },
+    {
+      "title": "US Defense Department Integration of Google, Microsoft, and OpenAI AI into Classified Systems",
+      "date": "2026-05-04",
+      "description": "The US Department of Defense has formalized agreements with seven technology leaders, including Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection, and SpaceX, to deploy artificial intelligence within classified operational environments.",
+      "link": "posts/geoCTI/us_defense_department_integration_of_google_microsoft_and_op_bdc8bc0f.html",
+      "tags": [
+        "US Department of Defense",
+        "Google",
+        "Microsoft",
+        "Amazon Web Services",
+        "Nvidia",
+        "OpenAI",
+        "Reflection",
+        "SpaceX",
+        "CTI",
+        "attacks",
+        "breaking"
       ]
     },
     {

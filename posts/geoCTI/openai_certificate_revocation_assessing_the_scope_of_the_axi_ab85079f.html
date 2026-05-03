@@ -13,6 +13,8 @@
         h1 { border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; }
         a { color: var(--accent); text-decoration: none; }
         .metadata { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 2rem; }
+        .analysis-meta { color: var(--accent); margin-bottom: 1.5rem; }
+        .analysis-meta strong { color: var(--accent); }
         .back-btn { display: inline-block; margin-bottom: 2rem; color: var(--text-muted); }
         .back-btn:hover { color: var(--accent); }
         code { background: #1a1a1a; padding: 0.2rem 0.4rem; border-radius: 4px; color: var(--accent); }
@@ -28,7 +30,7 @@
             <span>> CATEGORY: geoCTI</span>
         </div>
         
-        <p><strong>Confidence:</strong> high | <strong>Triage Score:</strong> 8/10 | <strong>Category:</strong> Espionage | <strong>Key Actors:</strong> OpenAI, UNC1069, TeamPCP, Apple | <strong>SAT Techniques:</strong> Attack Tree Analysis, Key Assumptions Check, Indicators &amp; Warnings</p>
+        <p class="analysis-meta"><strong>Confidence:</strong> high | <strong>Triage Score:</strong> 8/10 | <strong>Category:</strong> Espionage | <strong>Key Actors:</strong> OpenAI, UNC1069, TeamPCP, Apple | <strong>SAT Techniques:</strong> Attack Tree Analysis, Key Assumptions Check, Indicators & Warnings</p>
 <p>The compromise of the Axios npm package via the malicious 'plain-crypto-js' dependency allowed the North Korean group UNC1069 to execute the WAVESHAPER.V2 backdoor within OpenAI's macOS application signing pipeline. While OpenAI reports no evidence of data exfiltration, the breach of the GitHub Actions workflow provided the actor with temporary access to macOS notarization and signing materials. The rotation of these certificates forces a hard break in the software lifecycle for ChatGPT Desktop and Codex users, effectively weaponizing the trust model of the macOS ecosystem against legacy versions of the software.</p>
 <h2>Attack Tree Analysis</h2>
 <ul>

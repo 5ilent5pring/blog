@@ -13,6 +13,8 @@
         h1 { border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; }
         a { color: var(--accent); text-decoration: none; }
         .metadata { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 2rem; }
+        .analysis-meta { color: var(--accent); margin-bottom: 1.5rem; }
+        .analysis-meta strong { color: var(--accent); }
         .back-btn { display: inline-block; margin-bottom: 2rem; color: var(--text-muted); }
         .back-btn:hover { color: var(--accent); }
         code { background: #1a1a1a; padding: 0.2rem 0.4rem; border-radius: 4px; color: var(--accent); }
@@ -28,7 +30,7 @@
             <span>> CATEGORY: geoCTI</span>
         </div>
         
-        <p><strong>Confidence:</strong> high | <strong>Triage Score:</strong> 7/10 | <strong>Category:</strong> Analysis | <strong>Key Actors:</strong> CPUID, Kaspersky, Breakglass Intelligence | <strong>SAT Techniques:</strong> Attack Tree Analysis, Key Assumptions Check, Indicators &amp; Warnings</p>
+        <p class="analysis-meta"><strong>Confidence:</strong> high | <strong>Triage Score:</strong> 7/10 | <strong>Category:</strong> Analysis | <strong>Key Actors:</strong> CPUID, Kaspersky, Breakglass Intelligence | <strong>SAT Techniques:</strong> Attack Tree Analysis, Key Assumptions Check, Indicators & Warnings</p>
 <p>Threat actors compromised a secondary API on the CPUID website to redirect users to malicious installers for hardware monitoring tools like CPU-Z and HWMonitor. This operation successfully distributed the STX RAT to over 150 victims, including organizations in the manufacturing, telecom, and agriculture sectors. The use of a long-running, 10-month campaign involving FileZilla trojanization suggests this is not a transient opportunistic strike, but a sustained effort to establish persistent access within industrial and telecommunications supply chains.</p>
 <h2>Attack Tree Analysis</h2>
 <ul>
