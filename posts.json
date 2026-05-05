@@ -18,6 +18,198 @@
   ],
   "geoCTI": [
     {
+      "title": "AiTM Token Compromise: Assessing the Strategic Intent of the April 2026 Code of Conduct Campaign",
+      "date": "2026-05-05",
+      "description": "Between April 14 and 16, 2026, an unidentified adversary executed a large-scale credential theft operation targeting over 13,000 organizations, with a 92% concentration in the United States.",
+      "link": "posts/geoCTI/aitm_token_compromise_assessing_the_strategic_intent_of_the_8e896936.html",
+      "tags": [
+        "United States",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Initial Access Brokers Target Indian Financial Services and LiteLLM Proxy Infrastructure",
+      "date": "2026-05-05",
+      "description": "A surge in underground listings reveals a coordinated effort by initial access brokers to monetize high-privilege credentials and automated exploit tooling.",
+      "link": "posts/geoCTI/initial_access_brokers_target_indian_financial_services_and_81fa208d.html",
+      "tags": [
+        "Indian financial services organization",
+        "LiteLLM Proxy users",
+        "Indonesian WhatsApp users",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Monetization of AccountDumpling: Assessing the Vietnamese-Linked Facebook Phishing Infrastructure",
+      "date": "2026-05-05",
+      "description": "A phishing operation codenamed AccountDumpling has successfully compromised approximately 30,000 Facebook accounts by leveraging Google AppSheet as a distribution relay.",
+      "link": "posts/geoCTI/monetization_of_accountdumpling_assessing_the_vietnamese_lin_026162ce.html",
+      "tags": [
+        "Vietnam",
+        "Guardio",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "RMM Tool Abuse in VENOMOUS#HELPER Campaign Targets 80+ U.S. Organizations",
+      "date": "2026-05-05",
+      "description": "Since April 2025, the VENOMOUS#HELPER campaign has utilized legitimate Remote Monitoring and Management (RMM) software, specifically SimpleHelp and ScreenConnect, to establish persistent access within over 80 organizations.",
+      "link": "posts/geoCTI/rmm_tool_abuse_in_venomoushelper_campaign_targets_80_us_orga_8787d37d.html",
+      "tags": [
+        "Securonix",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "ScarCruft Supply Chain Compromise: BirdCall Malware Expansion to Android Targets Ethnic Koreans in China",
+      "date": "2026-05-05",
+      "description": "ScarCruft has transitioned from a Windows-centric backdoor deployment to a cross-platform capability by compromising a video game platform's software components.",
+      "link": "posts/geoCTI/scarcruft_supply_chain_compromise_birdcall_malware_expansion_68b29340.html",
+      "tags": [
+        "ScarCruft",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Sightline Intelligence Hardware Shipments to Elbit Systems Enable Autonomous Target Classification",
+      "date": "2026-05-05",
+      "description": "Cargo manifests reveal at least ten shipments of SLA-3000-OEM embedded video processing boards from Portland-based Sightline Intelligence to Israel's Elbit Systems between 2024 and 2025.",
+      "link": "posts/geoCTI/sightline_intelligence_hardware_shipments_to_elbit_systems_e_bdeb4913.html",
+      "tags": [
+        "Sightline Intelligence",
+        "Elbit Systems",
+        "Movement Research Unit",
+        "Israel",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Silver Fox: China-Linked Social Engineering Targets India and Russia via ABCDoor and ValleyRAT",
+      "date": "2026-05-05",
+      "description": "A campaign involving over 1,600 social engineering messages has deployed ABCDoor and ValleyRAT malware against organizations in India and Russia.",
+      "link": "posts/geoCTI/silver_fox_china_linked_social_engineering_targets_india_and_c0f6df4e.html",
+      "tags": [
+        "Silver Fox",
+        "India",
+        "Russia",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Sophos's Six-Year Counter-Espionage Campaign Against Chinese-Linked Firewall Exploitation",
+      "date": "2026-05-05",
+      "description": "For six years, Sophos engaged in an active defense campaign to intercept and disrupt state-backed intrusions targeting their firewall infrastructure.",
+      "link": "posts/geoCTI/sophoss_six_year_counter_espionage_campaign_against_chinese_44b3ad99.html",
+      "tags": [
+        "Sophos",
+        "Chinese government",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The Arrest of a Scattered Spider Member and the Limits of Law Enforcement Intervention",
+      "date": "2026-05-05",
+      "description": "The recent arrest of a Scattered Spider operative marks a rare successful disruption of a financially motivated group known for high-profile social engineering.",
+      "link": "posts/geoCTI/the_arrest_of_a_scattered_spider_member_and_the_limits_of_la_95ed5bed.html",
+      "tags": [
+        "Scattered Spider",
+        "OFAC",
+        "CISA",
+        "NSA",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The EU Digital Fairness Act: Privacy-First Regulation vs. Surveillance-Driven Enforcement",
+      "date": "2026-05-05",
+      "description": "The European Commission is preparing the Digital Fairness Act (DFA) to address deceptive design and exploitative personalization within the EU's digital market.",
+      "link": "posts/geoCTI/the_eu_digital_fairness_act_privacy_first_regulation_vs_surv_9547596d.html",
+      "tags": [
+        "European Commission",
+        "Electronic Frontier Foundation (EFF)",
+        "EU",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The Erosion of Cyber Norms in the 'Wild Wild West' Era",
+      "date": "2026-05-05",
+      "description": "Tom Uren and The Grugq argue that the established boundaries of international cyber operations have fundamentally collapsed.",
+      "link": "posts/geoCTI/the_erosion_of_cyber_norms_in_the_wild_wild_west_era_0f269789.html",
+      "tags": [
+        "Tom Uren",
+        "The Grugq",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The Section 702 Renewal and the Infrastructure of Turnkey Totalitarianism",
+      "date": "2026-05-05",
+      "description": "The U.S.",
+      "link": "posts/geoCTI/the_section_702_renewal_and_the_infrastructure_of_turnkey_to_aa9578f1.html",
+      "tags": [
+        "EFF",
+        "U.S. Congress",
+        "NSA",
+        "Law Enforcement Agencies",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The Shift from Drones to Turbojet-Powered Missiles in Russia-Ukraine Air Warfare",
+      "date": "2026-05-05",
+      "description": "Russia is actively re-engineering Shahed-style drones by integrating turbojet engines to increase flight speeds by up to 150%.",
+      "link": "posts/geoCTI/the_shift_from_drones_to_turbojet_powered_missiles_in_russia_cd701213.html",
+      "tags": [
+        "Russia",
+        "Ukraine",
+        "NATO",
+        "Iran",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "UK Digital ID Consultation: State Centralization vs. Civil Liberty Protections",
+      "date": "2026-05-05",
+      "description": "The UK government, under Prime Minister Keir Starmer, is advancing a national digital identity scheme designed to centralize verification of residency and work status on personal devices.",
+      "link": "posts/geoCTI/uk_digital_id_consultation_state_centralization_vs_civil_lib_1644e058.html",
+      "tags": [
+        "UK Government",
+        "Keir Starmer",
+        "EFF",
+        "UK-based civil society organizations",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "CVE-2026-31431 Exploitation: The Threat to Cloud-Native Kubernetes Integrity",
       "date": "2026-05-04",
       "description": "The discovery of the 'Copy Fail' vulnerability (CVE-2026-31431) within the Linux kernel's crypto-subsystem provides a mechanism for unprivileged users to achieve root access across major distributions including Ubuntu, Red Hat, and Amazon Linux.",
