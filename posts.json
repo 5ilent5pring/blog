@@ -18,6 +18,199 @@
   ],
   "geoCTI": [
     {
+      "title": "Assessing the Gap Between Qods Force Rhetoric and Operational Execution against the U.S. Homeland",
+      "date": "2026-05-06",
+      "description": "The Islamic Revolutionary Guard Corps (IRGC) Qods Force has transitioned from veiled threats to explicit declarations of intent to target Americans within the United States.",
+      "link": "posts/geoCTI/assessing_the_gap_between_qods_force_rhetoric_and_operationa_53a0cf8c.html",
+      "tags": [
+        "Islamic Revolutionary Guard Corps",
+        "Qods Force",
+        "United States",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Australia's New Cyber Incident Review Board: A Shift Toward Systemic Resilience Over Liability",
+      "date": "2026-05-06",
+      "description": "The Australian government has established a Cyber Incident Review Board to conduct no-fault, post-incident investigations into significant breaches affecting both public and private sectors.",
+      "link": "posts/geoCTI/australias_new_cyber_incident_review_board_a_shift_toward_sy_c918e9dc.html",
+      "tags": [
+        "Australian Government",
+        "Australian Industry",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "CISA Guidance Signals Shift Toward Defensive Resilience Against Foreign Threat Actors",
+      "date": "2026-05-06",
+      "description": "CISA has issued new operational guidance for critical infrastructure operators, focusing on the technical requirements for network isolation and rapid recovery.",
+      "link": "posts/geoCTI/cisa_guidance_signals_shift_toward_defensive_resilience_agai_05122299.html",
+      "tags": [
+        "CISA",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "CVE-2026-31431: Assessing the Strategic Utility of Linux Kernel LPE Vulnerabilities",
+      "date": "2026-05-06",
+      "description": "The discovery of CVE-2026-31431 reveals a critical vulnerability in the Linux kernel that enables unauthenticated root access.",
+      "link": "posts/geoCTI/cve_2026_31431_assessing_the_strategic_utility_of_linux_kern_dbc227b9.html",
+      "tags": [
+        "Unit 42",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Deceptive Attribution: MuddyWater's Use of Chaos Ransomware as a False Flag",
+      "date": "2026-05-06",
+      "description": "An Iranian-linked intrusion, attributed to MuddyWater, utilized social engineering and credential harvesting to infiltrate targets while masquerading as a Chaos ransomware attack.",
+      "link": "posts/geoCTI/deceptive_attribution_muddywaters_use_of_chaos_ransomware_as_adcc88a3.html",
+      "tags": [
+        "MuddyWater",
+        "Chaos Ransomware",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Hardware Supply Chain Vulnerabilities: The Persistence of Foreign-Entity Connectivity in US Infrastructure",
+      "date": "2026-05-06",
+      "description": "The integration of undocumented cellular radios into solar inverters used in US highway infrastructure demonstrates a failure in hardware lifecycle management.",
+      "link": "posts/geoCTI/hardware_supply_chain_vulnerabilities_the_persistence_of_for_658fd518.html",
+      "tags": [
+        "US highway infrastructure operators",
+        "Small-business prototyping labs",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Microsoft Teams Social Engineering: Evaluating the MuddyWater False Flag Hypothesis",
+      "date": "2026-05-06",
+      "description": "In early 2026, the Iranian-linked group MuddyWater utilized Microsoft Teams-based social engineering to execute a ransomware-style credential theft operation.",
+      "link": "posts/geoCTI/microsoft_teams_social_engineering_evaluating_the_muddywater_19ad008f.html",
+      "tags": [
+        "MuddyWater",
+        "Mango Sandstorm",
+        "Seedworm",
+        "Static Kitten",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "OceanLotus Supply Chain Intrusion via PyPI: The Shift to Public API C2 Infrastructure",
+      "date": "2026-05-06",
+      "description": "OceanLotus has transitioned from traditional malware delivery to a sophisticated PyPI supply chain campaign using malicious wheel packages like 'colorinal' and 'uuid32-utils'.",
+      "link": "posts/geoCTI/oceanlotus_supply_chain_intrusion_via_pypi_the_shift_to_publ_e1271aac.html",
+      "tags": [
+        "OceanLotus",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "SEBI's Red Alert: India's Proactive Regulatory Response to Anthropic's Mythos",
+      "date": "2026-05-06",
+      "description": "The Securities and Exchange Board of India (SEBI) has issued an immediate infosec advisory to 19 classes of financial entities, including stock exchanges and mutual funds, in response to the vulnerability-discovery capabilities of Anthropic’s Mythos AI.",
+      "link": "posts/geoCTI/sebis_red_alert_indias_proactive_regulatory_response_to_anth_008235a7.html",
+      "tags": [
+        "Securities and Exchange Board of India (SEBI)",
+        "Anthropic",
+        "US Treasury",
+        "Monetary Authority of Singapore",
+        "Australian regulators",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Sightline Intelligence Hardware Shipments Enable Automated Target Classification for Elbit Systems",
+      "date": "2026-05-06",
+      "description": "Cargo manifests reveal that Portland-based Sightline Intelligence has completed at least ten shipments of SLA-3000-OEM embedded video processing boards to Israeli defense contractor Elbit Systems since 2024.",
+      "link": "posts/geoCTI/sightline_intelligence_hardware_shipments_enable_automated_t_435ca399.html",
+      "tags": [
+        "Sightline Intelligence",
+        "Elbit Systems",
+        "Movement Research Unit",
+        "Israel",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Strategic Divergence: How the Iran War Realigns U.S.-China Competition",
+      "date": "2026-05-06",
+      "description": "The ongoing conflict involving Iran and the potential closure of the Strait of Hormuz force a reassessment of American resource allocation between the Middle East and East Asia.",
+      "link": "posts/geoCTI/strategic_divergence_how_the_iran_war_realigns_us_china_comp_2473d9f5.html",
+      "tags": [
+        "United States",
+        "China",
+        "Iran",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Strategic Selection in the DAEMON Tools Supply Chain Compromise",
+      "date": "2026-05-06",
+      "description": "Threat actors compromised the DAEMON Tools distribution infrastructure to deliver a backdoor via legitimate, digitally signed installers starting April 8.",
+      "link": "posts/geoCTI/strategic_selection_in_the_daemon_tools_supply_chain_comprom_fcf7cea8.html",
+      "tags": [
+        "AVB Disc Soft",
+        "Kaspersky",
+        "Russia",
+        "Belarus",
+        "Thailand",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The Structural Resilience of Threat Activity Enablers (TAEs) in Modern Infrastructure",
+      "date": "2026-05-06",
+      "description": "Threat Activity Enablers (TAEs) have institutionalized the provision of high-risk infrastructure through the use of Local Internet Registries (LIRs) and corporate shell games.",
+      "link": "posts/geoCTI/the_structural_resilience_of_threat_activity_enablers_taes_i_6fcfb1c7.html",
+      "tags": [
+        "Recorded Future",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Unitree G1 Vulnerabilities: The Emergence of Physical Botnets in Embodied AI",
+      "date": "2026-05-06",
+      "description": "The integration of humanoid robots like the Unitree G1 into industrial and critical workflows transforms mobile endpoints into high-fidelity intelligence collection nodes.",
+      "link": "posts/geoCTI/unitree_g1_vulnerabilities_the_emergence_of_physical_botnets_6b91ef9a.html",
+      "tags": [
+        "Unitree",
+        "BMW",
+        "GXO",
+        "Agility Robotics",
+        "Sellafield",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "AiTM Token Compromise: Assessing the Strategic Intent of the April 2026 Code of Conduct Campaign",
       "date": "2026-05-05",
       "description": "Between April 14 and 16, 2026, an unidentified adversary executed a large-scale credential theft operation targeting over 13,000 organizations, with a 92% concentration in the United States.",
