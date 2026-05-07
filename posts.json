@@ -18,6 +18,79 @@
   ],
   "geoCTI": [
     {
+      "title": "Attribution of CVE-2026-0300 Exploitation to CL-STA-1132 and the Chinese Nexus",
+      "date": "2026-05-07",
+      "description": "Threat actors identified as CL-STA-1132 successfully exploited a zero-day buffer overflow in Palo Alto Networks' User-ID Authentication Portal to achieve root-level remote code execution.",
+      "link": "posts/geoCTI/attribution_of_cve_2026_0300_exploitation_to_cl_sta_1132_and_22a1d22c.html",
+      "tags": [
+        "CL-STA-1132",
+        "China",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "DarkSword Exploit Proliferation: Commercial and State-Sponsored Convergence in iOS Espionage",
+      "date": "2026-05-07",
+      "description": "The emergence of the DarkSword iOS exploit chain, characterized by a six-vulnerability zero-day sequence, demonstrates a breakdown in the traditional barrier between commercial surveillance vendors and state-sponsored intelligence services.",
+      "link": "posts/geoCTI/darksword_exploit_proliferation_commercial_and_state_sponsor_92e01481.html",
+      "tags": [
+        "UNC6353",
+        "Google Threat Intelligence Group (GTIG)",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Iranian Intelligence Mimicking Ransomware TTPs to Mask Espionage Objectives",
+      "date": "2026-05-07",
+      "description": "Iranian state-sponsored cyber actors are utilizing ransomware-style personas and tactics to execute espionage operations.",
+      "link": "posts/geoCTI/iranian_intelligence_mimicking_ransomware_ttps_to_mask_espio_4ef8d85a.html",
+      "tags": [
+        "Iran",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Russian Intelligence Targeting Polish Water Infrastructure for Operational Pre-positioning",
+      "date": "2026-05-07",
+      "description": "The Polish Internal Security Agency (ABW) confirmed that attackers breached water treatment facilities in five specific towns, including Jabłonna Lacka and Szczytno, during 2025.",
+      "link": "posts/geoCTI/russian_intelligence_targeting_polish_water_infrastructure_f_963784a3.html",
+      "tags": [
+        "Poland",
+        "Russian Federation",
+        "ABW",
+        "Belarus",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "UAT-8302 Tooling Overlap and the China-Nexus Malware Ecosystem",
+      "date": "2026-05-07",
+      "description": "UAT-8302 has expanded its operational footprint from South American government entities in late 2024 to southeastern European agencies in 2025.",
+      "link": "posts/geoCTI/uat_8302_tooling_overlap_and_the_china_nexus_malware_ecosyst_aee7a25f.html",
+      "tags": [
+        "UAT-8302",
+        "Jewelbug",
+        "REF7707",
+        "CL-STA-0049",
+        "LongNosedGoblin",
+        "Earth Estries",
+        "Earth Naga",
+        "UNC5174",
+        "UNC6586",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "Assessing the Gap Between Qods Force Rhetoric and Operational Execution against the U.S. Homeland",
       "date": "2026-05-06",
       "description": "The Islamic Revolutionary Guard Corps (IRGC) Qods Force has transitioned from veiled threats to explicit declarations of intent to target Americans within the United States.",
