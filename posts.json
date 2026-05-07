@@ -31,6 +31,21 @@
       ]
     },
     {
+      "title": "CISA's CI Fortify Initiative: Shifting from Eradication to Operational Isolation",
+      "date": "2026-05-07",
+      "description": "CISA has launched the CI Fortify initiative to transition critical infrastructure defense from active threat eviction to a posture of operational resilience through network isolation.",
+      "link": "posts/geoCTI/cisas_ci_fortify_initiative_shifting_from_eradication_to_ope_224b2081.html",
+      "tags": [
+        "CISA",
+        "Volt Typhoon",
+        "U.S. Critical Infrastructure Organizations",
+        "Russian threat actors",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "DarkSword Exploit Proliferation: Commercial and State-Sponsored Convergence in iOS Espionage",
       "date": "2026-05-07",
       "description": "The emergence of the DarkSword iOS exploit chain, characterized by a six-vulnerability zero-day sequence, demonstrates a breakdown in the traditional barrier between commercial surveillance vendors and state-sponsored intelligence services.",
@@ -56,6 +71,17 @@
       ]
     },
     {
+      "title": "Predictable Admin Passwords and the Failure of Network Perimeter Integrity",
+      "date": "2026-05-07",
+      "description": "The exploitation of guessable administrative credentials demonstrates a fundamental breakdown in basic security hygiene within targeted network environments.",
+      "link": "posts/geoCTI/predictable_admin_passwords_and_the_failure_of_network_perim_df8142a2.html",
+      "tags": [
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "Russian Intelligence Targeting Polish Water Infrastructure for Operational Pre-positioning",
       "date": "2026-05-07",
       "description": "The Polish Internal Security Agency (ABW) confirmed that attackers breached water treatment facilities in five specific towns, including Jabłonna Lacka and Szczytno, during 2025.",
@@ -65,6 +91,20 @@
         "Russian Federation",
         "ABW",
         "Belarus",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Targeted Payload Deployment via Trojanized Daemon Tools Build Environment",
+      "date": "2026-05-07",
+      "description": "Threat actors successfully compromised the Disc Soft build infrastructure to distribute malware-laden Daemon Tools Lite installers from April 8 through early May.",
+      "link": "posts/geoCTI/targeted_payload_deployment_via_trojanized_daemon_tools_buil_fd425bd9.html",
+      "tags": [
+        "Disc Soft",
+        "Kaspersky",
+        "Russia",
         "CTI",
         "attacks",
         "breaking"
@@ -85,6 +125,35 @@
         "Earth Naga",
         "UNC5174",
         "UNC6586",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "US Sentencing of Knoot and Prince Targets North Korean Revenue Pipelines",
+      "date": "2026-05-07",
+      "description": "Federal prosecutors successfully secured 18-month prison sentences for Matthew Isaac Knoot and Erick Ntekereze Prince, two US nationals who operated 'laptop farms' to facilitate North Korean IT workers' fraudulent employment at nearly 70 American firms.",
+      "link": "posts/geoCTI/us_sentencing_of_knoot_and_prince_targets_north_korean_reven_dcccaccf.html",
+      "tags": [
+        "North Korea",
+        "Matthew Isaac Knoot",
+        "Erick Ntekereze Prince",
+        "US Department of Justice",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Zulip API Integration in ZiChatBot Signals a Shift Toward Legitimate SaaS-as-C2 for OceanLotus",
+      "date": "2026-05-07",
+      "description": "The deployment of ZiChatBot via poisoned PyPI packages uuid32-utils, colorinal, and termncolor demonstrates a move toward utilizing public REST APIs to bypass traditional network security monitoring.",
+      "link": "posts/geoCTI/zulip_api_integration_in_zichatbot_signals_a_shift_toward_le_87a42def.html",
+      "tags": [
+        "OceanLotus",
+        "APT32",
+        "Kaspersky",
         "CTI",
         "attacks",
         "breaking"
