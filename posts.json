@@ -18,6 +18,21 @@
   ],
   "geoCTI": [
     {
+      "title": "Assessing the Viability of Tom Parker's CISA Directorship",
+      "date": "2026-05-08",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) faces a leadership vacuum following a sixteen-month period without a Senate-confirmed director.",
+      "link": "posts/geoCTI/assessing_the_viability_of_tom_parkers_cisa_directorship_866aaaf0.html",
+      "tags": [
+        "CISA",
+        "Tom Parker",
+        "Department of Homeland Security",
+        "Markwayne Mullin",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "Bureau 1440's Rassvet Constellation: Russia's Pursuit of Orbital Sovereignty",
       "date": "2026-05-08",
       "description": "The March 23 launch of the first 16 Rassvet satellites from the Plesetsk Cosmodrome marks a shift from experimental satellite deployment to a state-funded effort to establish a domestic broadband alternative to Starlink.",
@@ -49,6 +64,34 @@
       ]
     },
     {
+      "title": "Insider Threat Vulnerabilities in Federal Contracting: The Akhter Conviction",
+      "date": "2026-05-08",
+      "description": "Sohaib and Muneeb Akhter, former federal contractors, executed a destructive campaign against 96 government databases immediately following their termination in February 2025.",
+      "link": "posts/geoCTI/insider_threat_vulnerabilities_in_federal_contracting_the_ak_09142522.html",
+      "tags": [
+        "Sohaib Akhter",
+        "Muneeb Akhter",
+        "U.S. Department of Homeland Security",
+        "U.S. Department of State",
+        "FDIC-OIG",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Mozilla's Mythos Deployment: Automating Vulnerability Remediation in Firefox",
+      "date": "2026-05-08",
+      "description": "Mozilla has integrated the Mythos AI tool into its development pipeline, resulting in the identification and remediation of 423 security vulnerabilities within the Firefox codebase.",
+      "link": "posts/geoCTI/mozillas_mythos_deployment_automating_vulnerability_remediat_0a0dc0de.html",
+      "tags": [
+        "Mozilla",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "MuddyWater's Use of Chaos Ransomware as a Deceptive Cover for MOIS Espionage",
       "date": "2026-05-08",
       "description": "Iranian Ministry of Intelligence and Security (MOIS) operatives are leveraging the Chaos ransomware brand to mask targeted data theft operations.",
@@ -59,6 +102,38 @@
         "Chaos ransomware",
         "BlackSuit",
         "Royal",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Palo Alto Networks Zero-Day Exploitation and the Russian Intelligence Pipeline",
+      "date": "2026-05-08",
+      "description": "A state-sponsored actor successfully exploited a zero-day vulnerability in Palo Alto Networks firewalls, coinciding with simultaneous critical patches for Google Android and Ivanti infrastructure.",
+      "link": "posts/geoCTI/palo_alto_networks_zero_day_exploitation_and_the_russian_int_db031a78.html",
+      "tags": [
+        "Palo Alto Networks",
+        "Google",
+        "Ivanti",
+        "Russia",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Pentagon Strategy to Diversify AI Models Following Anthropic Ban",
+      "date": "2026-05-08",
+      "description": "Pentagon officials Katherine Sutton and Emil Michael are pivoting toward a multi-vendor AI strategy to mitigate the operational risks of the current administration's ban on Anthropic products.",
+      "link": "posts/geoCTI/pentagon_strategy_to_diversify_ai_models_following_anthropic_a91f5da0.html",
+      "tags": [
+        "Pentagon",
+        "Anthropic",
+        "US Government",
+        "OpenAI",
+        "xAI",
+        "Google",
         "CTI",
         "attacks",
         "breaking"
