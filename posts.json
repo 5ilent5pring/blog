@@ -18,6 +18,92 @@
   ],
   "geoCTI": [
     {
+      "title": "Bureau 1440's Rassvet Constellation: Russia's Pursuit of Orbital Sovereignty",
+      "date": "2026-05-08",
+      "description": "The March 23 launch of the first 16 Rassvet satellites from the Plesetsk Cosmodrome marks a shift from experimental satellite deployment to a state-funded effort to establish a domestic broadband alternative to Starlink.",
+      "link": "posts/geoCTI/bureau_1440s_rassvet_constellation_russias_pursuit_of_orbita_22ca738c.html",
+      "tags": [
+        "Bureau 1440",
+        "Russian Defense Ministry",
+        "Roscosmos",
+        "Iks Holding",
+        "Megafon",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Infrastructure Overlap Between BO Team and Head Mare Signals Operational Convergence in Russo-Ukrainian Cyber Conflict",
+      "date": "2026-05-08",
+      "description": "The emergence of shared command-and-control infrastructure between the pro-Ukraine BO Team and Head Mare indicates a transition from independent hacktivist activity toward a coordinated, multi-stage intrusion model.",
+      "link": "posts/geoCTI/infrastructure_overlap_between_bo_team_and_head_mare_signals_eaceafa8.html",
+      "tags": [
+        "BO Team",
+        "Head Mare",
+        "Kaspersky",
+        "Ukrainian military intelligence",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "MuddyWater's Use of Chaos Ransomware as a Deceptive Cover for MOIS Espionage",
+      "date": "2026-05-08",
+      "description": "Iranian Ministry of Intelligence and Security (MOIS) operatives are leveraging the Chaos ransomware brand to mask targeted data theft operations.",
+      "link": "posts/geoCTI/muddywaters_use_of_chaos_ransomware_as_a_deceptive_cover_for_9a9536d8.html",
+      "tags": [
+        "MuddyWater",
+        "Ministry of Intelligence and Security (MOIS)",
+        "Chaos ransomware",
+        "BlackSuit",
+        "Royal",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Russian-Linked APTs Target Polish Water Infrastructure via ICS Vulnerabilities",
+      "date": "2026-05-08",
+      "description": "The Polish Internal Security Agency (ABW) has documented direct intrusions into industrial control systems at five water treatment facilities, including Jabłonna Lacka and Szczytno, throughout 2024 and 2025.",
+      "link": "posts/geoCTI/russian_linked_apts_target_polish_water_infrastructure_via_i_3798ee5c.html",
+      "tags": [
+        "ABW",
+        "APT28",
+        "APT29",
+        "UNC1151",
+        "Russia",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The Emergence of a Non-Washington Security Architecture: Ukraine-Gulf Partnerships and the Bypass of U.S. Hub Dynamics",
+      "date": "2026-05-08",
+      "description": "The United States is losing its role as the central coordinator for regional security in the Middle East as Gulf states increasingly turn to Ukraine for counter-drone expertise and defense agreements.",
+      "link": "posts/geoCTI/the_emergence_of_a_non_washington_security_architecture_ukra_17949fff.html",
+      "tags": [
+        "United States",
+        "Ukraine",
+        "Russia",
+        "Iran",
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "Qatar",
+        "Oman",
+        "Kuwait",
+        "Bahrain",
+        "China",
+        "North Korea",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "Attribution of CVE-2026-0300 Exploitation to CL-STA-1132 and the Chinese Nexus",
       "date": "2026-05-07",
       "description": "Threat actors identified as CL-STA-1132 successfully exploited a zero-day buffer overflow in Palo Alto Networks' User-ID Authentication Portal to achieve root-level remote code execution.",
