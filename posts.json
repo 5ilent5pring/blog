@@ -18,6 +18,93 @@
   ],
   "geoCTI": [
     {
+      "title": "Arctic Electromagnetic Spectrum Operations: Assessing US Command Readiness for Denied Environments",
+      "date": "2026-05-09",
+      "description": "The Joint Electromagnetic Spectrum Operations Center (JEC) recently conducted 'Aurora Pulse,' a tabletop exercise involving senior leaders from US Northern Command, Cyber Command, and the Intelligence Community.",
+      "link": "posts/geoCTI/arctic_electromagnetic_spectrum_operations_assessing_us_comm_18f4ff4f.html",
+      "tags": [
+        "Joint Electromagnetic Spectrum Operations Center",
+        "US Northern Command",
+        "US Cyber Command",
+        "US Indo-Pacific Command",
+        "US Strategic Command",
+        "US Coast Guard",
+        "US Intelligence Community",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Beyond the Board of Trade: Why US-China Economic Stability Requires Procedural Circuit Breakers",
+      "date": "2026-05-09",
+      "description": "The Trump administration's proposed China-U.S.",
+      "link": "posts/geoCTI/beyond_the_board_of_trade_why_us_china_economic_stability_re_87910e4e.html",
+      "tags": [
+        "United States",
+        "China",
+        "Meta",
+        "Manus",
+        "National Development and Reform Commission",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Shadow-Earth-053: China’s Integrated Strategy of Espionage and Transnational Repression",
+      "date": "2026-05-09",
+      "description": "The Shadow-Earth-053 campaign demonstrates a synchronized deployment of traditional state espionage and targeted digital repression against diaspora populations.",
+      "link": "posts/geoCTI/shadow_earth_053_chinas_integrated_strategy_of_espionage_and_ecdfa266.html",
+      "tags": [
+        "Shadow-Earth-053",
+        "Glitter Carp",
+        "Sequin Carp",
+        "China",
+        "Poland",
+        "Taiwan",
+        "Pakistan",
+        "Thailand",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The Lynas-US DoD Agreement: Malaysia's Strategic Vulnerability to Supply Chain Integration",
+      "date": "2026-05-09",
+      "description": "The $96 million rare earths agreement between Australia’s Lynas Corporation and the U.S.",
+      "link": "posts/geoCTI/the_lynas_us_dod_agreement_malaysias_strategic_vulnerability_5706219d.html",
+      "tags": [
+        "Lynas Corporation",
+        "U.S. Department of Defense",
+        "Malaysia",
+        "Australia",
+        "China",
+        "Sahabat Alam Malaysia",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Transnational Repression and Intelligence Collection in the UK, US, and Norway",
+      "date": "2026-05-09",
+      "description": "On May 7, simultaneous legal and enforcement actions in the United Kingdom, the United States, and Norway disrupted Chinese-linked operations targeting dissidents and dual-use infrastructure.",
+      "link": "posts/geoCTI/transnational_repression_and_intelligence_collection_in_the_63e7bd76.html",
+      "tags": [
+        "United Kingdom",
+        "United States",
+        "Norway",
+        "China",
+        "HKETO",
+        "Andøya Spaceport",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "Assessing the Viability of Tom Parker's CISA Directorship",
       "date": "2026-05-08",
       "description": "The Cybersecurity and Infrastructure Security Agency (CISA) faces a leadership vacuum following a sixteen-month period without a Senate-confirmed director.",
