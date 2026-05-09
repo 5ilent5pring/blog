@@ -18,6 +18,21 @@
   ],
   "geoCTI": [
     {
+      "title": "Accelerated US Federal Patching Mandates and the Rise of AI-Driven Vulnerability Weaponization",
+      "date": "2026-05-09",
+      "description": "US cybersecurity officials are moving to compress federal vulnerability remediation timelines from 14 days to 72 hours.",
+      "link": "posts/geoCTI/accelerated_us_federal_patching_mandates_and_the_rise_of_ai_141d0de1.html",
+      "tags": [
+        "CISA",
+        "US Federal Agencies",
+        "Anthropic",
+        "OpenAI",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "Arctic Electromagnetic Spectrum Operations: Assessing US Command Readiness for Denied Environments",
       "date": "2026-05-09",
       "description": "The Joint Electromagnetic Spectrum Operations Center (JEC) recently conducted 'Aurora Pulse,' a tabletop exercise involving senior leaders from US Northern Command, Cyber Command, and the Intelligence Community.",
