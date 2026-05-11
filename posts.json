@@ -18,6 +18,94 @@
   ],
   "geoCTI": [
     {
+      "title": "AI-Driven Exploit Development and the Automation of China-Nexus Vulnerability Research",
+      "date": "2026-05-11",
+      "description": "Threat actors, specifically those linked to China and North Korea, are transitioning from manual vulnerability discovery to using Large Language Models (LLMs) for automated exploit generation and attack orchestration.",
+      "link": "posts/geoCTI/ai_driven_exploit_development_and_the_automation_of_china_ne_74175167.html",
+      "tags": [
+        "UNC2814",
+        "Silent Chollima",
+        "APT45",
+        "Google Threat Intelligence Group",
+        "China",
+        "North Korea",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "AI-Driven Vulnerability Discovery: Assessing the Shift in PRC and DPRK Exploit Development",
+      "date": "2026-05-11",
+      "description": "Adversaries are transitioning from manual vulnerability research to industrial-scale exploitation using generative models to identify semantic logic flaws and automate exploit generation.",
+      "link": "posts/geoCTI/ai_driven_vulnerability_discovery_assessing_the_shift_in_prc_d5f49109.html",
+      "tags": [
+        "Google Threat Intelligence Group",
+        "Mandiant",
+        "PRC",
+        "DPRK",
+        "APT45",
+        "UNC2814",
+        "APT27",
+        "UNC5673",
+        "UNC6201",
+        "Russia",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "FCC Extension of Foreign-Made Router Ban: A Managed Transition or a Security Vulnerability Window?",
+      "date": "2026-05-11",
+      "description": "The US Federal Communications Commission (FCC) has extended the deadline for security updates on banned foreign-made routers and drones from March 2027 to January 1, 2029.",
+      "link": "posts/geoCTI/fcc_extension_of_foreign_made_router_ban_a_managed_transitio_be51315a.html",
+      "tags": [
+        "US Federal Communications Commission",
+        "US Department of Defense",
+        "US Department of Homeland Security",
+        "DJI",
+        "TP-Link",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "HeartlessSoul's Targeting of Aviation GIS Data Points to Strategic Terrain Intelligence Collection",
+      "date": "2026-05-11",
+      "description": "The threat group HeartlessSoul is executing a targeted espionage campaign against aerospace firms and drone operators to exfiltrate geospatial intelligence, including GIS shape files and GPS data.",
+      "link": "posts/geoCTI/heartlesssouls_targeting_of_aviation_gis_data_points_to_stra_56c37ace.html",
+      "tags": [
+        "HeartlessSoul",
+        "Kaspersky Lab",
+        "BI.ZONE",
+        "Positive Technologies",
+        "IntelBroker",
+        "Team Cymru",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Latvian Defense Leadership Resignation and the Vulnerability of Border Airspace Integrity",
+      "date": "2026-05-11",
+      "description": "Latvian Defense Minister Andris Sprūds resigned following the failure of military drone detection systems to intercept or alert the public to Ukrainian-origin drones that struck an oil storage facility in Rēzekne.",
+      "link": "posts/geoCTI/latvian_defense_leadership_resignation_and_the_vulnerability_32babdf5.html",
+      "tags": [
+        "Latvia",
+        "Russia",
+        "Ukraine",
+        "Andris Sprūds",
+        "Evika Siliņa",
+        "Andrii Sybiha",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "Accelerated US Federal Patching Mandates and the Rise of AI-Driven Vulnerability Weaponization",
       "date": "2026-05-09",
       "description": "US cybersecurity officials are moving to compress federal vulnerability remediation timelines from 14 days to 72 hours.",
