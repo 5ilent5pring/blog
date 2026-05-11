@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const GEOCTI_BASE = 'https://geocti.5ilent5pring.org';
+
     // 1. Handle deep-linking (if someone visits 5ilent5pring.org/#sat)
     const hash = window.location.hash.replace('#', '');
     if (hash) {
@@ -8,7 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'geoCTI': 'geocti',
             'sat-notes': 'sat',
             'book-reviews': 'books',
-            'case-studies': 'cases'
+            'case-studies': 'cases',
+            'technical': 'technical'
         };
         const page = pageMap[hash] || hash;
         if (typeof showPage === 'function') showPage(page);
@@ -21,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             // Map JSON keys (from main.go) to HTML Section IDs (from index.html)
             const mapping = {
+                'writings': 'writings-page',
                 'sat-notes': 'sat-page',
                 'technical': 'technical-page',
                 'case-studies': 'cases-page',
@@ -31,12 +35,15 @@ document.addEventListener('DOMContentLoaded', () => {
             // Populate each specific category page
             Object.keys(mapping).forEach(jsonKey => {
                 const targetId = mapping[jsonKey];
-                const posts = data[jsonKey] || [];
-                renderToGrid(sortPostsChronologically(posts), targetId);
+                const posts = jsonKey === 'writings'
+                    ? getHumanPosts(data)
+                    : normalizeGeoPostLinks(data[jsonKey] || [], GEOCTI_BASE);
+                const limit = jsonKey === 'geoCTI' ? 6 : undefined;
+                renderToGrid(sortPostsChronologically(posts).slice(0, limit), targetId);
             });
 
-            // Populate the Home Page with the 6 most recent articles
-            renderHome(data);
+            // Populate the home page without letting the automated feed dominate it.
+            renderHome(data, GEOCTI_BASE);
         })
         .catch(err => console.error("Critical Error: Could not load blog database.", err));
 });
@@ -49,7 +56,7 @@ function renderToGrid(posts, containerId) {
     if (!container) return;
 
     if (posts.length === 0) {
-        container.innerHTML = `<p style="color:var(--text-muted)">// No entries found in this category.</p>`;
+        container.innerHTML = `<p class="empty-state">// No entries found in this category yet.</p>`;
         return;
     }
 
@@ -57,20 +64,42 @@ function renderToGrid(posts, containerId) {
 }
 
 /**
- * Flattens all categories and shows the latest 6 on the homepage
+ * Shows human-authored writing first, with a small bridge to geoCTI.
  */
-function renderHome(data) {
-    const container = document.querySelector('#home-page .cards-grid');
-    if (!container) return;
+function renderHome(data, geoBase) {
+    const humanContainer = document.querySelector('#latest-human-grid');
+    const geoContainer = document.querySelector('#geocti-preview-grid');
 
-    let allPosts = [];
-    Object.values(data).forEach(categoryArray => {
-        allPosts = allPosts.concat(categoryArray);
+    if (humanContainer) {
+        const latestHuman = sortPostsChronologically(getHumanPosts(data)).slice(0, 6);
+        humanContainer.innerHTML = latestHuman.length
+            ? latestHuman.map(post => createCard(post)).join('')
+            : `<p class="empty-state">// Human-authored posts will appear here as the main blog grows.</p>`;
+    }
+
+    if (geoContainer) {
+        const latestGeo = sortPostsChronologically(normalizeGeoPostLinks(data.geoCTI || [], geoBase)).slice(0, 3);
+        geoContainer.innerHTML = latestGeo.length
+            ? latestGeo.map(post => createCard(post, { badge: 'AI-assisted brief' })).join('')
+            : `<p class="empty-state">// geoCTI feed is not available yet.</p>`;
+    }
+}
+
+function getHumanPosts(data) {
+    return Object.entries(data)
+        .filter(([key]) => key !== 'geoCTI')
+        .flatMap(([, posts]) => Array.isArray(posts) ? posts : []);
+}
+
+function normalizeGeoPostLinks(posts, geoBase) {
+    return posts.map(post => {
+        if (!post || post.category !== 'geoCTI') return post;
+        if (/^https?:\/\//.test(post.link || '')) return post;
+        return {
+            ...post,
+            link: `${geoBase}/${post.link || ''}`.replace(/([^:]\/)\/+/g, '$1')
+        };
     });
-
-    // Render top 6
-    const latest = sortPostsChronologically(allPosts).slice(0, 6);
-    container.innerHTML = latest.map(post => createCard(post)).join('');
 }
 
 function sortPostsChronologically(posts) {
@@ -84,22 +113,38 @@ function sortPostsChronologically(posts) {
 /**
  * Creates the HTML for a single post card
  */
-function createCard(post) {
+function createCard(post, options = {}) {
     // Ensure tags exist to avoid errors
-    const tagsHtml = post.tags 
-        ? post.tags.map(t => `<span style="color:var(--accent); font-size:0.75rem; margin-right:8px;">#${t}</span>`).join('') 
+    const tagsHtml = post.tags
+        ? post.tags.slice(0, 8).map(t => `<span style="color:var(--accent); font-size:0.75rem; margin-right:8px;">#${escapeHtml(t)}</span>`).join('')
         : '';
+    const badgeHtml = options.badge ? `<span> | ${escapeHtml(options.badge)}</span>` : '';
+    const categoryHtml = post.category ? `<span> | ${escapeHtml(post.category)}</span>` : '';
+    const link = escapeAttribute(post.link || '#');
 
     return `
-        <article class="card" onclick="window.location.href='${post.link}'" style="cursor: pointer;">
+        <article class="card" onclick="window.location.href='${link}'" style="cursor: pointer;">
             <div class="meta">
-                <span>> ${post.date}</span>
+                <span>> ${escapeHtml(post.date || '')}</span>${categoryHtml}${badgeHtml}
             </div>
-            <h3>${post.title}</h3>
-            <p>${post.description}</p>
+            <h3>${escapeHtml(post.title || 'Untitled')}</h3>
+            <p>${escapeHtml(post.description || '')}</p>
             <div class="tags">
                 ${tagsHtml}
             </div>
         </article>
     `;
+}
+
+function escapeHtml(value) {
+    return String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function escapeAttribute(value) {
+    return escapeHtml(value).replace(/`/g, '&#96;');
 }

@@ -6,6 +6,7 @@
     {
       "title": "ACH 101: Stop Trusting Your Gut",
       "date": "2026-01-22",
+      "category": "sat-notes",
       "description": "Why attribution is a trap, and how Analysis of Competing Hypotheses (ACH) saves you from firing the wrong admin.",
       "link": "posts/sat-notes/ach_101.html",
       "tags": [
@@ -20,8 +21,9 @@
     {
       "title": "AI-Assisted Zero-Day Exploitation: Assessing the Vulnerability of Web-Based System Administration Tools",
       "date": "2026-05-11",
+      "category": "geoCTI",
       "description": "Cybercriminal groups have successfully utilized large language models to identify and weaponize a zero-day vulnerability targeting a web-based system administration tool.",
-      "link": "posts/geoCTI/ai_assisted_zero_day_exploitation_assessing_the_vulnerabilit_3e238f2a.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/ai_assisted_zero_day_exploitation_assessing_the_vulnerabilit_3e238f2a.html",
       "tags": [
         "Google Threat Intelligence Group",
         "PRC",
@@ -34,8 +36,9 @@
     {
       "title": "AI-Driven Exploit Development and the Automation of China-Nexus Vulnerability Research",
       "date": "2026-05-11",
+      "category": "geoCTI",
       "description": "Threat actors, specifically those linked to China and North Korea, are transitioning from manual vulnerability discovery to using Large Language Models (LLMs) for automated exploit generation and attack orchestration.",
-      "link": "posts/geoCTI/ai_driven_exploit_development_and_the_automation_of_china_ne_74175167.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/ai_driven_exploit_development_and_the_automation_of_china_ne_74175167.html",
       "tags": [
         "UNC2814",
         "Silent Chollima",
@@ -51,8 +54,9 @@
     {
       "title": "AI-Driven Vulnerability Discovery: Assessing the Shift in PRC and DPRK Exploit Development",
       "date": "2026-05-11",
+      "category": "geoCTI",
       "description": "Adversaries are transitioning from manual vulnerability research to industrial-scale exploitation using generative models to identify semantic logic flaws and automate exploit generation.",
-      "link": "posts/geoCTI/ai_driven_vulnerability_discovery_assessing_the_shift_in_prc_d5f49109.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/ai_driven_vulnerability_discovery_assessing_the_shift_in_prc_d5f49109.html",
       "tags": [
         "Google Threat Intelligence Group",
         "Mandiant",
@@ -72,8 +76,9 @@
     {
       "title": "CI/CD Pipeline Compromise: Analyzing the North Korean and TeamPCP Supply Chain Campaigns",
       "date": "2026-05-11",
+      "category": "geoCTI",
       "description": "In early 2026, North Korean actors and the TeamPCP group executed a series of high-impact supply chain operations targeting the software build process.",
-      "link": "posts/geoCTI/cicd_pipeline_compromise_analyzing_the_north_korean_and_team_8d7b3a9a.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/cicd_pipeline_compromise_analyzing_the_north_korean_and_team_8d7b3a9a.html",
       "tags": [
         "North Korean actors",
         "TeamPCP",
@@ -87,8 +92,9 @@
     {
       "title": "Claude Code Mimicry Campaign Targets Developer Credentials via Chromium Exploitation",
       "date": "2026-05-11",
+      "category": "geoCTI",
       "description": "An unidentified threat actor is deploying a specialized information stealer through fraudulent Claude Code installation pages to compromise developer workstations.",
-      "link": "posts/geoCTI/claude_code_mimicry_campaign_targets_developer_credentials_v_600bf6b3.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/claude_code_mimicry_campaign_targets_developer_credentials_v_600bf6b3.html",
       "tags": [
         "Anthropic",
         "Ontinue",
@@ -103,8 +109,9 @@
     {
       "title": "FCC Extension of Foreign-Made Router Ban: A Managed Transition or a Security Vulnerability Window?",
       "date": "2026-05-11",
+      "category": "geoCTI",
       "description": "The US Federal Communications Commission (FCC) has extended the deadline for security updates on banned foreign-made routers and drones from March 2027 to January 1, 2029.",
-      "link": "posts/geoCTI/fcc_extension_of_foreign_made_router_ban_a_managed_transitio_be51315a.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/fcc_extension_of_foreign_made_router_ban_a_managed_transitio_be51315a.html",
       "tags": [
         "US Federal Communications Commission",
         "US Department of Defense",
@@ -119,8 +126,9 @@
     {
       "title": "HeartlessSoul's Targeting of Aviation GIS Data Points to Strategic Terrain Intelligence Collection",
       "date": "2026-05-11",
+      "category": "geoCTI",
       "description": "The threat group HeartlessSoul is executing a targeted espionage campaign against aerospace firms and drone operators to exfiltrate geospatial intelligence, including GIS shape files and GPS data.",
-      "link": "posts/geoCTI/heartlesssouls_targeting_of_aviation_gis_data_points_to_stra_56c37ace.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/heartlesssouls_targeting_of_aviation_gis_data_points_to_stra_56c37ace.html",
       "tags": [
         "HeartlessSoul",
         "Kaspersky Lab",
@@ -136,8 +144,9 @@
     {
       "title": "Latvian Defense Leadership Resignation and the Vulnerability of Border Airspace Integrity",
       "date": "2026-05-11",
+      "category": "geoCTI",
       "description": "Latvian Defense Minister Andris Sprūds resigned following the failure of military drone detection systems to intercept or alert the public to Ukrainian-origin drones that struck an oil storage facility in Rēzekne.",
-      "link": "posts/geoCTI/latvian_defense_leadership_resignation_and_the_vulnerability_32babdf5.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/latvian_defense_leadership_resignation_and_the_vulnerability_32babdf5.html",
       "tags": [
         "Latvia",
         "Russia",
@@ -153,8 +162,9 @@
     {
       "title": "TeamPCP Exploits Checkmarx Credential Management Failures to Re-enter Jenkins Pipelines",
       "date": "2026-05-11",
+      "category": "geoCTI",
       "description": "TeamPCP has successfully executed a secondary breach of Checkmarx infrastructure, specifically targeting the Checkmarx Jenkins plugin version 2026.5.09.",
-      "link": "posts/geoCTI/teampcp_exploits_checkmarx_credential_management_failures_to_614caf13.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/teampcp_exploits_checkmarx_credential_management_failures_to_614caf13.html",
       "tags": [
         "TeamPCP",
         "Checkmarx",
@@ -166,8 +176,9 @@
     {
       "title": "US Export Controls Create a Friction Point for Ukrainian Defense Tech Integration",
       "date": "2026-05-11",
+      "category": "geoCTI",
       "description": "US investors are aggressively funding Ukrainian drone startups like Swarmer, yet the existing ITAR-style regulatory framework prevents the rapid deployment of US-developed technology back to the Ukrainian front lines.",
-      "link": "posts/geoCTI/us_export_controls_create_a_friction_point_for_ukrainian_def_86dcdf00.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/us_export_controls_create_a_friction_point_for_ukrainian_def_86dcdf00.html",
       "tags": [
         "US Department of Defense",
         "Airlogix",
@@ -184,8 +195,9 @@
     {
       "title": "Accelerated US Federal Patching Mandates and the Rise of AI-Driven Vulnerability Weaponization",
       "date": "2026-05-09",
+      "category": "geoCTI",
       "description": "US cybersecurity officials are moving to compress federal vulnerability remediation timelines from 14 days to 72 hours.",
-      "link": "posts/geoCTI/accelerated_us_federal_patching_mandates_and_the_rise_of_ai_141d0de1.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/accelerated_us_federal_patching_mandates_and_the_rise_of_ai_141d0de1.html",
       "tags": [
         "CISA",
         "US Federal Agencies",
@@ -199,8 +211,9 @@
     {
       "title": "Arctic Electromagnetic Spectrum Operations: Assessing US Command Readiness for Denied Environments",
       "date": "2026-05-09",
+      "category": "geoCTI",
       "description": "The Joint Electromagnetic Spectrum Operations Center (JEC) recently conducted 'Aurora Pulse,' a tabletop exercise involving senior leaders from US Northern Command, Cyber Command, and the Intelligence Community.",
-      "link": "posts/geoCTI/arctic_electromagnetic_spectrum_operations_assessing_us_comm_18f4ff4f.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/arctic_electromagnetic_spectrum_operations_assessing_us_comm_18f4ff4f.html",
       "tags": [
         "Joint Electromagnetic Spectrum Operations Center",
         "US Northern Command",
@@ -217,8 +230,9 @@
     {
       "title": "Beyond the Board of Trade: Why US-China Economic Stability Requires Procedural Circuit Breakers",
       "date": "2026-05-09",
+      "category": "geoCTI",
       "description": "The Trump administration's proposed China-U.S.",
-      "link": "posts/geoCTI/beyond_the_board_of_trade_why_us_china_economic_stability_re_87910e4e.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/beyond_the_board_of_trade_why_us_china_economic_stability_re_87910e4e.html",
       "tags": [
         "United States",
         "China",
@@ -233,8 +247,9 @@
     {
       "title": "Shadow-Earth-053: China’s Integrated Strategy of Espionage and Transnational Repression",
       "date": "2026-05-09",
+      "category": "geoCTI",
       "description": "The Shadow-Earth-053 campaign demonstrates a synchronized deployment of traditional state espionage and targeted digital repression against diaspora populations.",
-      "link": "posts/geoCTI/shadow_earth_053_chinas_integrated_strategy_of_espionage_and_ecdfa266.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/shadow_earth_053_chinas_integrated_strategy_of_espionage_and_ecdfa266.html",
       "tags": [
         "Shadow-Earth-053",
         "Glitter Carp",
@@ -252,8 +267,9 @@
     {
       "title": "The Lynas-US DoD Agreement: Malaysia's Strategic Vulnerability to Supply Chain Integration",
       "date": "2026-05-09",
+      "category": "geoCTI",
       "description": "The $96 million rare earths agreement between Australia’s Lynas Corporation and the U.S.",
-      "link": "posts/geoCTI/the_lynas_us_dod_agreement_malaysias_strategic_vulnerability_5706219d.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/the_lynas_us_dod_agreement_malaysias_strategic_vulnerability_5706219d.html",
       "tags": [
         "Lynas Corporation",
         "U.S. Department of Defense",
@@ -269,8 +285,9 @@
     {
       "title": "Transnational Repression and Intelligence Collection in the UK, US, and Norway",
       "date": "2026-05-09",
+      "category": "geoCTI",
       "description": "On May 7, simultaneous legal and enforcement actions in the United Kingdom, the United States, and Norway disrupted Chinese-linked operations targeting dissidents and dual-use infrastructure.",
-      "link": "posts/geoCTI/transnational_repression_and_intelligence_collection_in_the_63e7bd76.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/transnational_repression_and_intelligence_collection_in_the_63e7bd76.html",
       "tags": [
         "United Kingdom",
         "United States",
@@ -286,8 +303,9 @@
     {
       "title": "Assessing the Viability of Tom Parker's CISA Directorship",
       "date": "2026-05-08",
+      "category": "geoCTI",
       "description": "The Cybersecurity and Infrastructure Security Agency (CISA) faces a leadership vacuum following a sixteen-month period without a Senate-confirmed director.",
-      "link": "posts/geoCTI/assessing_the_viability_of_tom_parkers_cisa_directorship_866aaaf0.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/assessing_the_viability_of_tom_parkers_cisa_directorship_866aaaf0.html",
       "tags": [
         "CISA",
         "Tom Parker",
@@ -301,8 +319,9 @@
     {
       "title": "Bureau 1440's Rassvet Constellation: Russia's Pursuit of Orbital Sovereignty",
       "date": "2026-05-08",
+      "category": "geoCTI",
       "description": "The March 23 launch of the first 16 Rassvet satellites from the Plesetsk Cosmodrome marks a shift from experimental satellite deployment to a state-funded effort to establish a domestic broadband alternative to Starlink.",
-      "link": "posts/geoCTI/bureau_1440s_rassvet_constellation_russias_pursuit_of_orbita_22ca738c.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/bureau_1440s_rassvet_constellation_russias_pursuit_of_orbita_22ca738c.html",
       "tags": [
         "Bureau 1440",
         "Russian Defense Ministry",
@@ -317,8 +336,9 @@
     {
       "title": "Infrastructure Overlap Between BO Team and Head Mare Signals Operational Convergence in Russo-Ukrainian Cyber Conflict",
       "date": "2026-05-08",
+      "category": "geoCTI",
       "description": "The emergence of shared command-and-control infrastructure between the pro-Ukraine BO Team and Head Mare indicates a transition from independent hacktivist activity toward a coordinated, multi-stage intrusion model.",
-      "link": "posts/geoCTI/infrastructure_overlap_between_bo_team_and_head_mare_signals_eaceafa8.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/infrastructure_overlap_between_bo_team_and_head_mare_signals_eaceafa8.html",
       "tags": [
         "BO Team",
         "Head Mare",
@@ -332,8 +352,9 @@
     {
       "title": "Insider Threat Vulnerabilities in Federal Contracting: The Akhter Conviction",
       "date": "2026-05-08",
+      "category": "geoCTI",
       "description": "Sohaib and Muneeb Akhter, former federal contractors, executed a destructive campaign against 96 government databases immediately following their termination in February 2025.",
-      "link": "posts/geoCTI/insider_threat_vulnerabilities_in_federal_contracting_the_ak_09142522.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/insider_threat_vulnerabilities_in_federal_contracting_the_ak_09142522.html",
       "tags": [
         "Sohaib Akhter",
         "Muneeb Akhter",
@@ -348,8 +369,9 @@
     {
       "title": "Mozilla's Mythos Deployment: Automating Vulnerability Remediation in Firefox",
       "date": "2026-05-08",
+      "category": "geoCTI",
       "description": "Mozilla has integrated the Mythos AI tool into its development pipeline, resulting in the identification and remediation of 423 security vulnerabilities within the Firefox codebase.",
-      "link": "posts/geoCTI/mozillas_mythos_deployment_automating_vulnerability_remediat_0a0dc0de.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/mozillas_mythos_deployment_automating_vulnerability_remediat_0a0dc0de.html",
       "tags": [
         "Mozilla",
         "CTI",
@@ -360,8 +382,9 @@
     {
       "title": "MuddyWater's Use of Chaos Ransomware as a Deceptive Cover for MOIS Espionage",
       "date": "2026-05-08",
+      "category": "geoCTI",
       "description": "Iranian Ministry of Intelligence and Security (MOIS) operatives are leveraging the Chaos ransomware brand to mask targeted data theft operations.",
-      "link": "posts/geoCTI/muddywaters_use_of_chaos_ransomware_as_a_deceptive_cover_for_9a9536d8.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/muddywaters_use_of_chaos_ransomware_as_a_deceptive_cover_for_9a9536d8.html",
       "tags": [
         "MuddyWater",
         "Ministry of Intelligence and Security (MOIS)",
@@ -376,8 +399,9 @@
     {
       "title": "Palo Alto Networks Zero-Day Exploitation and the Russian Intelligence Pipeline",
       "date": "2026-05-08",
+      "category": "geoCTI",
       "description": "A state-sponsored actor successfully exploited a zero-day vulnerability in Palo Alto Networks firewalls, coinciding with simultaneous critical patches for Google Android and Ivanti infrastructure.",
-      "link": "posts/geoCTI/palo_alto_networks_zero_day_exploitation_and_the_russian_int_db031a78.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/palo_alto_networks_zero_day_exploitation_and_the_russian_int_db031a78.html",
       "tags": [
         "Palo Alto Networks",
         "Google",
@@ -391,8 +415,9 @@
     {
       "title": "Pentagon Strategy to Diversify AI Models Following Anthropic Ban",
       "date": "2026-05-08",
+      "category": "geoCTI",
       "description": "Pentagon officials Katherine Sutton and Emil Michael are pivoting toward a multi-vendor AI strategy to mitigate the operational risks of the current administration's ban on Anthropic products.",
-      "link": "posts/geoCTI/pentagon_strategy_to_diversify_ai_models_following_anthropic_a91f5da0.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/pentagon_strategy_to_diversify_ai_models_following_anthropic_a91f5da0.html",
       "tags": [
         "Pentagon",
         "Anthropic",
@@ -408,8 +433,9 @@
     {
       "title": "Russian-Linked APTs Target Polish Water Infrastructure via ICS Vulnerabilities",
       "date": "2026-05-08",
+      "category": "geoCTI",
       "description": "The Polish Internal Security Agency (ABW) has documented direct intrusions into industrial control systems at five water treatment facilities, including Jabłonna Lacka and Szczytno, throughout 2024 and 2025.",
-      "link": "posts/geoCTI/russian_linked_apts_target_polish_water_infrastructure_via_i_3798ee5c.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/russian_linked_apts_target_polish_water_infrastructure_via_i_3798ee5c.html",
       "tags": [
         "ABW",
         "APT28",
@@ -424,8 +450,9 @@
     {
       "title": "The Emergence of a Non-Washington Security Architecture: Ukraine-Gulf Partnerships and the Bypass of U.S. Hub Dynamics",
       "date": "2026-05-08",
+      "category": "geoCTI",
       "description": "The United States is losing its role as the central coordinator for regional security in the Middle East as Gulf states increasingly turn to Ukraine for counter-drone expertise and defense agreements.",
-      "link": "posts/geoCTI/the_emergence_of_a_non_washington_security_architecture_ukra_17949fff.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/the_emergence_of_a_non_washington_security_architecture_ukra_17949fff.html",
       "tags": [
         "United States",
         "Ukraine",
@@ -447,8 +474,9 @@
     {
       "title": "Attribution of CVE-2026-0300 Exploitation to CL-STA-1132 and the Chinese Nexus",
       "date": "2026-05-07",
+      "category": "geoCTI",
       "description": "Threat actors identified as CL-STA-1132 successfully exploited a zero-day buffer overflow in Palo Alto Networks' User-ID Authentication Portal to achieve root-level remote code execution.",
-      "link": "posts/geoCTI/attribution_of_cve_2026_0300_exploitation_to_cl_sta_1132_and_22a1d22c.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/attribution_of_cve_2026_0300_exploitation_to_cl_sta_1132_and_22a1d22c.html",
       "tags": [
         "CL-STA-1132",
         "China",
@@ -460,8 +488,9 @@
     {
       "title": "CISA's CI Fortify Initiative: Shifting from Eradication to Operational Isolation",
       "date": "2026-05-07",
+      "category": "geoCTI",
       "description": "CISA has launched the CI Fortify initiative to transition critical infrastructure defense from active threat eviction to a posture of operational resilience through network isolation.",
-      "link": "posts/geoCTI/cisas_ci_fortify_initiative_shifting_from_eradication_to_ope_224b2081.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/cisas_ci_fortify_initiative_shifting_from_eradication_to_ope_224b2081.html",
       "tags": [
         "CISA",
         "Volt Typhoon",
@@ -475,8 +504,9 @@
     {
       "title": "DarkSword Exploit Proliferation: Commercial and State-Sponsored Convergence in iOS Espionage",
       "date": "2026-05-07",
+      "category": "geoCTI",
       "description": "The emergence of the DarkSword iOS exploit chain, characterized by a six-vulnerability zero-day sequence, demonstrates a breakdown in the traditional barrier between commercial surveillance vendors and state-sponsored intelligence services.",
-      "link": "posts/geoCTI/darksword_exploit_proliferation_commercial_and_state_sponsor_92e01481.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/darksword_exploit_proliferation_commercial_and_state_sponsor_92e01481.html",
       "tags": [
         "UNC6353",
         "Google Threat Intelligence Group (GTIG)",
@@ -488,8 +518,9 @@
     {
       "title": "Iranian Intelligence Mimicking Ransomware TTPs to Mask Espionage Objectives",
       "date": "2026-05-07",
+      "category": "geoCTI",
       "description": "Iranian state-sponsored cyber actors are utilizing ransomware-style personas and tactics to execute espionage operations.",
-      "link": "posts/geoCTI/iranian_intelligence_mimicking_ransomware_ttps_to_mask_espio_4ef8d85a.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/iranian_intelligence_mimicking_ransomware_ttps_to_mask_espio_4ef8d85a.html",
       "tags": [
         "Iran",
         "CTI",
@@ -500,8 +531,9 @@
     {
       "title": "Predictable Admin Passwords and the Failure of Network Perimeter Integrity",
       "date": "2026-05-07",
+      "category": "geoCTI",
       "description": "The exploitation of guessable administrative credentials demonstrates a fundamental breakdown in basic security hygiene within targeted network environments.",
-      "link": "posts/geoCTI/predictable_admin_passwords_and_the_failure_of_network_perim_df8142a2.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/predictable_admin_passwords_and_the_failure_of_network_perim_df8142a2.html",
       "tags": [
         "CTI",
         "attacks",
@@ -511,8 +543,9 @@
     {
       "title": "Russian Intelligence Targeting Polish Water Infrastructure for Operational Pre-positioning",
       "date": "2026-05-07",
+      "category": "geoCTI",
       "description": "The Polish Internal Security Agency (ABW) confirmed that attackers breached water treatment facilities in five specific towns, including Jabłonna Lacka and Szczytno, during 2025.",
-      "link": "posts/geoCTI/russian_intelligence_targeting_polish_water_infrastructure_f_963784a3.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/russian_intelligence_targeting_polish_water_infrastructure_f_963784a3.html",
       "tags": [
         "Poland",
         "Russian Federation",
@@ -526,8 +559,9 @@
     {
       "title": "Targeted Payload Deployment via Trojanized Daemon Tools Build Environment",
       "date": "2026-05-07",
+      "category": "geoCTI",
       "description": "Threat actors successfully compromised the Disc Soft build infrastructure to distribute malware-laden Daemon Tools Lite installers from April 8 through early May.",
-      "link": "posts/geoCTI/targeted_payload_deployment_via_trojanized_daemon_tools_buil_fd425bd9.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/targeted_payload_deployment_via_trojanized_daemon_tools_buil_fd425bd9.html",
       "tags": [
         "Disc Soft",
         "Kaspersky",
@@ -540,8 +574,9 @@
     {
       "title": "UAT-8302 Tooling Overlap and the China-Nexus Malware Ecosystem",
       "date": "2026-05-07",
+      "category": "geoCTI",
       "description": "UAT-8302 has expanded its operational footprint from South American government entities in late 2024 to southeastern European agencies in 2025.",
-      "link": "posts/geoCTI/uat_8302_tooling_overlap_and_the_china_nexus_malware_ecosyst_aee7a25f.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/uat_8302_tooling_overlap_and_the_china_nexus_malware_ecosyst_aee7a25f.html",
       "tags": [
         "UAT-8302",
         "Jewelbug",
@@ -560,8 +595,9 @@
     {
       "title": "US Sentencing of Knoot and Prince Targets North Korean Revenue Pipelines",
       "date": "2026-05-07",
+      "category": "geoCTI",
       "description": "Federal prosecutors successfully secured 18-month prison sentences for Matthew Isaac Knoot and Erick Ntekereze Prince, two US nationals who operated 'laptop farms' to facilitate North Korean IT workers' fraudulent employment at nearly 70 American firms.",
-      "link": "posts/geoCTI/us_sentencing_of_knoot_and_prince_targets_north_korean_reven_dcccaccf.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/us_sentencing_of_knoot_and_prince_targets_north_korean_reven_dcccaccf.html",
       "tags": [
         "North Korea",
         "Matthew Isaac Knoot",
@@ -575,8 +611,9 @@
     {
       "title": "Zulip API Integration in ZiChatBot Signals a Shift Toward Legitimate SaaS-as-C2 for OceanLotus",
       "date": "2026-05-07",
+      "category": "geoCTI",
       "description": "The deployment of ZiChatBot via poisoned PyPI packages uuid32-utils, colorinal, and termncolor demonstrates a move toward utilizing public REST APIs to bypass traditional network security monitoring.",
-      "link": "posts/geoCTI/zulip_api_integration_in_zichatbot_signals_a_shift_toward_le_87a42def.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/zulip_api_integration_in_zichatbot_signals_a_shift_toward_le_87a42def.html",
       "tags": [
         "OceanLotus",
         "APT32",
@@ -589,8 +626,9 @@
     {
       "title": "Assessing the Gap Between Qods Force Rhetoric and Operational Execution against the U.S. Homeland",
       "date": "2026-05-06",
+      "category": "geoCTI",
       "description": "The Islamic Revolutionary Guard Corps (IRGC) Qods Force has transitioned from veiled threats to explicit declarations of intent to target Americans within the United States.",
-      "link": "posts/geoCTI/assessing_the_gap_between_qods_force_rhetoric_and_operationa_53a0cf8c.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/assessing_the_gap_between_qods_force_rhetoric_and_operationa_53a0cf8c.html",
       "tags": [
         "Islamic Revolutionary Guard Corps",
         "Qods Force",
@@ -603,8 +641,9 @@
     {
       "title": "Australia's New Cyber Incident Review Board: A Shift Toward Systemic Resilience Over Liability",
       "date": "2026-05-06",
+      "category": "geoCTI",
       "description": "The Australian government has established a Cyber Incident Review Board to conduct no-fault, post-incident investigations into significant breaches affecting both public and private sectors.",
-      "link": "posts/geoCTI/australias_new_cyber_incident_review_board_a_shift_toward_sy_c918e9dc.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/australias_new_cyber_incident_review_board_a_shift_toward_sy_c918e9dc.html",
       "tags": [
         "Australian Government",
         "Australian Industry",
@@ -616,8 +655,9 @@
     {
       "title": "CISA Guidance Signals Shift Toward Defensive Resilience Against Foreign Threat Actors",
       "date": "2026-05-06",
+      "category": "geoCTI",
       "description": "CISA has issued new operational guidance for critical infrastructure operators, focusing on the technical requirements for network isolation and rapid recovery.",
-      "link": "posts/geoCTI/cisa_guidance_signals_shift_toward_defensive_resilience_agai_05122299.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/cisa_guidance_signals_shift_toward_defensive_resilience_agai_05122299.html",
       "tags": [
         "CISA",
         "CTI",
@@ -628,8 +668,9 @@
     {
       "title": "CVE-2026-31431: Assessing the Strategic Utility of Linux Kernel LPE Vulnerabilities",
       "date": "2026-05-06",
+      "category": "geoCTI",
       "description": "The discovery of CVE-2026-31431 reveals a critical vulnerability in the Linux kernel that enables unauthenticated root access.",
-      "link": "posts/geoCTI/cve_2026_31431_assessing_the_strategic_utility_of_linux_kern_dbc227b9.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/cve_2026_31431_assessing_the_strategic_utility_of_linux_kern_dbc227b9.html",
       "tags": [
         "Unit 42",
         "CTI",
@@ -640,8 +681,9 @@
     {
       "title": "Deceptive Attribution: MuddyWater's Use of Chaos Ransomware as a False Flag",
       "date": "2026-05-06",
+      "category": "geoCTI",
       "description": "An Iranian-linked intrusion, attributed to MuddyWater, utilized social engineering and credential harvesting to infiltrate targets while masquerading as a Chaos ransomware attack.",
-      "link": "posts/geoCTI/deceptive_attribution_muddywaters_use_of_chaos_ransomware_as_adcc88a3.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/deceptive_attribution_muddywaters_use_of_chaos_ransomware_as_adcc88a3.html",
       "tags": [
         "MuddyWater",
         "Chaos Ransomware",
@@ -653,8 +695,9 @@
     {
       "title": "Hardware Supply Chain Vulnerabilities: The Persistence of Foreign-Entity Connectivity in US Infrastructure",
       "date": "2026-05-06",
+      "category": "geoCTI",
       "description": "The integration of undocumented cellular radios into solar inverters used in US highway infrastructure demonstrates a failure in hardware lifecycle management.",
-      "link": "posts/geoCTI/hardware_supply_chain_vulnerabilities_the_persistence_of_for_658fd518.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/hardware_supply_chain_vulnerabilities_the_persistence_of_for_658fd518.html",
       "tags": [
         "US highway infrastructure operators",
         "Small-business prototyping labs",
@@ -666,8 +709,9 @@
     {
       "title": "Microsoft Teams Social Engineering: Evaluating the MuddyWater False Flag Hypothesis",
       "date": "2026-05-06",
+      "category": "geoCTI",
       "description": "In early 2026, the Iranian-linked group MuddyWater utilized Microsoft Teams-based social engineering to execute a ransomware-style credential theft operation.",
-      "link": "posts/geoCTI/microsoft_teams_social_engineering_evaluating_the_muddywater_19ad008f.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/microsoft_teams_social_engineering_evaluating_the_muddywater_19ad008f.html",
       "tags": [
         "MuddyWater",
         "Mango Sandstorm",
@@ -681,8 +725,9 @@
     {
       "title": "OceanLotus Supply Chain Intrusion via PyPI: The Shift to Public API C2 Infrastructure",
       "date": "2026-05-06",
+      "category": "geoCTI",
       "description": "OceanLotus has transitioned from traditional malware delivery to a sophisticated PyPI supply chain campaign using malicious wheel packages like 'colorinal' and 'uuid32-utils'.",
-      "link": "posts/geoCTI/oceanlotus_supply_chain_intrusion_via_pypi_the_shift_to_publ_e1271aac.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/oceanlotus_supply_chain_intrusion_via_pypi_the_shift_to_publ_e1271aac.html",
       "tags": [
         "OceanLotus",
         "CTI",
@@ -693,8 +738,9 @@
     {
       "title": "SEBI's Red Alert: India's Proactive Regulatory Response to Anthropic's Mythos",
       "date": "2026-05-06",
+      "category": "geoCTI",
       "description": "The Securities and Exchange Board of India (SEBI) has issued an immediate infosec advisory to 19 classes of financial entities, including stock exchanges and mutual funds, in response to the vulnerability-discovery capabilities of Anthropic’s Mythos AI.",
-      "link": "posts/geoCTI/sebis_red_alert_indias_proactive_regulatory_response_to_anth_008235a7.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/sebis_red_alert_indias_proactive_regulatory_response_to_anth_008235a7.html",
       "tags": [
         "Securities and Exchange Board of India (SEBI)",
         "Anthropic",
@@ -709,8 +755,9 @@
     {
       "title": "Sightline Intelligence Hardware Shipments Enable Automated Target Classification for Elbit Systems",
       "date": "2026-05-06",
+      "category": "geoCTI",
       "description": "Cargo manifests reveal that Portland-based Sightline Intelligence has completed at least ten shipments of SLA-3000-OEM embedded video processing boards to Israeli defense contractor Elbit Systems since 2024.",
-      "link": "posts/geoCTI/sightline_intelligence_hardware_shipments_enable_automated_t_435ca399.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/sightline_intelligence_hardware_shipments_enable_automated_t_435ca399.html",
       "tags": [
         "Sightline Intelligence",
         "Elbit Systems",
@@ -724,8 +771,9 @@
     {
       "title": "Strategic Divergence: How the Iran War Realigns U.S.-China Competition",
       "date": "2026-05-06",
+      "category": "geoCTI",
       "description": "The ongoing conflict involving Iran and the potential closure of the Strait of Hormuz force a reassessment of American resource allocation between the Middle East and East Asia.",
-      "link": "posts/geoCTI/strategic_divergence_how_the_iran_war_realigns_us_china_comp_2473d9f5.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/strategic_divergence_how_the_iran_war_realigns_us_china_comp_2473d9f5.html",
       "tags": [
         "United States",
         "China",
@@ -738,8 +786,9 @@
     {
       "title": "Strategic Selection in the DAEMON Tools Supply Chain Compromise",
       "date": "2026-05-06",
+      "category": "geoCTI",
       "description": "Threat actors compromised the DAEMON Tools distribution infrastructure to deliver a backdoor via legitimate, digitally signed installers starting April 8.",
-      "link": "posts/geoCTI/strategic_selection_in_the_daemon_tools_supply_chain_comprom_fcf7cea8.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/strategic_selection_in_the_daemon_tools_supply_chain_comprom_fcf7cea8.html",
       "tags": [
         "AVB Disc Soft",
         "Kaspersky",
@@ -754,8 +803,9 @@
     {
       "title": "The Structural Resilience of Threat Activity Enablers (TAEs) in Modern Infrastructure",
       "date": "2026-05-06",
+      "category": "geoCTI",
       "description": "Threat Activity Enablers (TAEs) have institutionalized the provision of high-risk infrastructure through the use of Local Internet Registries (LIRs) and corporate shell games.",
-      "link": "posts/geoCTI/the_structural_resilience_of_threat_activity_enablers_taes_i_6fcfb1c7.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/the_structural_resilience_of_threat_activity_enablers_taes_i_6fcfb1c7.html",
       "tags": [
         "Recorded Future",
         "CTI",
@@ -766,8 +816,9 @@
     {
       "title": "Unitree G1 Vulnerabilities: The Emergence of Physical Botnets in Embodied AI",
       "date": "2026-05-06",
+      "category": "geoCTI",
       "description": "The integration of humanoid robots like the Unitree G1 into industrial and critical workflows transforms mobile endpoints into high-fidelity intelligence collection nodes.",
-      "link": "posts/geoCTI/unitree_g1_vulnerabilities_the_emergence_of_physical_botnets_6b91ef9a.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/unitree_g1_vulnerabilities_the_emergence_of_physical_botnets_6b91ef9a.html",
       "tags": [
         "Unitree",
         "BMW",
@@ -782,8 +833,9 @@
     {
       "title": "AiTM Token Compromise: Assessing the Strategic Intent of the April 2026 Code of Conduct Campaign",
       "date": "2026-05-05",
+      "category": "geoCTI",
       "description": "Between April 14 and 16, 2026, an unidentified adversary executed a large-scale credential theft operation targeting over 13,000 organizations, with a 92% concentration in the United States.",
-      "link": "posts/geoCTI/aitm_token_compromise_assessing_the_strategic_intent_of_the_8e896936.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/aitm_token_compromise_assessing_the_strategic_intent_of_the_8e896936.html",
       "tags": [
         "United States",
         "CTI",
@@ -794,8 +846,9 @@
     {
       "title": "Initial Access Brokers Target Indian Financial Services and LiteLLM Proxy Infrastructure",
       "date": "2026-05-05",
+      "category": "geoCTI",
       "description": "A surge in underground listings reveals a coordinated effort by initial access brokers to monetize high-privilege credentials and automated exploit tooling.",
-      "link": "posts/geoCTI/initial_access_brokers_target_indian_financial_services_and_81fa208d.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/initial_access_brokers_target_indian_financial_services_and_81fa208d.html",
       "tags": [
         "Indian financial services organization",
         "LiteLLM Proxy users",
@@ -808,8 +861,9 @@
     {
       "title": "Monetization of AccountDumpling: Assessing the Vietnamese-Linked Facebook Phishing Infrastructure",
       "date": "2026-05-05",
+      "category": "geoCTI",
       "description": "A phishing operation codenamed AccountDumpling has successfully compromised approximately 30,000 Facebook accounts by leveraging Google AppSheet as a distribution relay.",
-      "link": "posts/geoCTI/monetization_of_accountdumpling_assessing_the_vietnamese_lin_026162ce.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/monetization_of_accountdumpling_assessing_the_vietnamese_lin_026162ce.html",
       "tags": [
         "Vietnam",
         "Guardio",
@@ -821,8 +875,9 @@
     {
       "title": "RMM Tool Abuse in VENOMOUS#HELPER Campaign Targets 80+ U.S. Organizations",
       "date": "2026-05-05",
+      "category": "geoCTI",
       "description": "Since April 2025, the VENOMOUS#HELPER campaign has utilized legitimate Remote Monitoring and Management (RMM) software, specifically SimpleHelp and ScreenConnect, to establish persistent access within over 80 organizations.",
-      "link": "posts/geoCTI/rmm_tool_abuse_in_venomoushelper_campaign_targets_80_us_orga_8787d37d.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/rmm_tool_abuse_in_venomoushelper_campaign_targets_80_us_orga_8787d37d.html",
       "tags": [
         "Securonix",
         "CTI",
@@ -833,8 +888,9 @@
     {
       "title": "ScarCruft Supply Chain Compromise: BirdCall Malware Expansion to Android Targets Ethnic Koreans in China",
       "date": "2026-05-05",
+      "category": "geoCTI",
       "description": "ScarCruft has transitioned from a Windows-centric backdoor deployment to a cross-platform capability by compromising a video game platform's software components.",
-      "link": "posts/geoCTI/scarcruft_supply_chain_compromise_birdcall_malware_expansion_68b29340.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/scarcruft_supply_chain_compromise_birdcall_malware_expansion_68b29340.html",
       "tags": [
         "ScarCruft",
         "CTI",
@@ -845,8 +901,9 @@
     {
       "title": "Sightline Intelligence Hardware Shipments to Elbit Systems Enable Autonomous Target Classification",
       "date": "2026-05-05",
+      "category": "geoCTI",
       "description": "Cargo manifests reveal at least ten shipments of SLA-3000-OEM embedded video processing boards from Portland-based Sightline Intelligence to Israel's Elbit Systems between 2024 and 2025.",
-      "link": "posts/geoCTI/sightline_intelligence_hardware_shipments_to_elbit_systems_e_bdeb4913.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/sightline_intelligence_hardware_shipments_to_elbit_systems_e_bdeb4913.html",
       "tags": [
         "Sightline Intelligence",
         "Elbit Systems",
@@ -860,8 +917,9 @@
     {
       "title": "Silver Fox: China-Linked Social Engineering Targets India and Russia via ABCDoor and ValleyRAT",
       "date": "2026-05-05",
+      "category": "geoCTI",
       "description": "A campaign involving over 1,600 social engineering messages has deployed ABCDoor and ValleyRAT malware against organizations in India and Russia.",
-      "link": "posts/geoCTI/silver_fox_china_linked_social_engineering_targets_india_and_c0f6df4e.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/silver_fox_china_linked_social_engineering_targets_india_and_c0f6df4e.html",
       "tags": [
         "Silver Fox",
         "India",
@@ -874,8 +932,9 @@
     {
       "title": "Sophos's Six-Year Counter-Espionage Campaign Against Chinese-Linked Firewall Exploitation",
       "date": "2026-05-05",
+      "category": "geoCTI",
       "description": "For six years, Sophos engaged in an active defense campaign to intercept and disrupt state-backed intrusions targeting their firewall infrastructure.",
-      "link": "posts/geoCTI/sophoss_six_year_counter_espionage_campaign_against_chinese_44b3ad99.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/sophoss_six_year_counter_espionage_campaign_against_chinese_44b3ad99.html",
       "tags": [
         "Sophos",
         "Chinese government",
@@ -887,8 +946,9 @@
     {
       "title": "The Arrest of a Scattered Spider Member and the Limits of Law Enforcement Intervention",
       "date": "2026-05-05",
+      "category": "geoCTI",
       "description": "The recent arrest of a Scattered Spider operative marks a rare successful disruption of a financially motivated group known for high-profile social engineering.",
-      "link": "posts/geoCTI/the_arrest_of_a_scattered_spider_member_and_the_limits_of_la_95ed5bed.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/the_arrest_of_a_scattered_spider_member_and_the_limits_of_la_95ed5bed.html",
       "tags": [
         "Scattered Spider",
         "OFAC",
@@ -902,8 +962,9 @@
     {
       "title": "The EU Digital Fairness Act: Privacy-First Regulation vs. Surveillance-Driven Enforcement",
       "date": "2026-05-05",
+      "category": "geoCTI",
       "description": "The European Commission is preparing the Digital Fairness Act (DFA) to address deceptive design and exploitative personalization within the EU's digital market.",
-      "link": "posts/geoCTI/the_eu_digital_fairness_act_privacy_first_regulation_vs_surv_9547596d.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/the_eu_digital_fairness_act_privacy_first_regulation_vs_surv_9547596d.html",
       "tags": [
         "European Commission",
         "Electronic Frontier Foundation (EFF)",
@@ -916,8 +977,9 @@
     {
       "title": "The Erosion of Cyber Norms in the 'Wild Wild West' Era",
       "date": "2026-05-05",
+      "category": "geoCTI",
       "description": "Tom Uren and The Grugq argue that the established boundaries of international cyber operations have fundamentally collapsed.",
-      "link": "posts/geoCTI/the_erosion_of_cyber_norms_in_the_wild_wild_west_era_0f269789.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/the_erosion_of_cyber_norms_in_the_wild_wild_west_era_0f269789.html",
       "tags": [
         "Tom Uren",
         "The Grugq",
@@ -929,8 +991,9 @@
     {
       "title": "The Section 702 Renewal and the Infrastructure of Turnkey Totalitarianism",
       "date": "2026-05-05",
+      "category": "geoCTI",
       "description": "The U.S.",
-      "link": "posts/geoCTI/the_section_702_renewal_and_the_infrastructure_of_turnkey_to_aa9578f1.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/the_section_702_renewal_and_the_infrastructure_of_turnkey_to_aa9578f1.html",
       "tags": [
         "EFF",
         "U.S. Congress",
@@ -944,8 +1007,9 @@
     {
       "title": "The Shift from Drones to Turbojet-Powered Missiles in Russia-Ukraine Air Warfare",
       "date": "2026-05-05",
+      "category": "geoCTI",
       "description": "Russia is actively re-engineering Shahed-style drones by integrating turbojet engines to increase flight speeds by up to 150%.",
-      "link": "posts/geoCTI/the_shift_from_drones_to_turbojet_powered_missiles_in_russia_cd701213.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/the_shift_from_drones_to_turbojet_powered_missiles_in_russia_cd701213.html",
       "tags": [
         "Russia",
         "Ukraine",
@@ -959,8 +1023,9 @@
     {
       "title": "UK Digital ID Consultation: State Centralization vs. Civil Liberty Protections",
       "date": "2026-05-05",
+      "category": "geoCTI",
       "description": "The UK government, under Prime Minister Keir Starmer, is advancing a national digital identity scheme designed to centralize verification of residency and work status on personal devices.",
-      "link": "posts/geoCTI/uk_digital_id_consultation_state_centralization_vs_civil_lib_1644e058.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/uk_digital_id_consultation_state_centralization_vs_civil_lib_1644e058.html",
       "tags": [
         "UK Government",
         "Keir Starmer",
@@ -974,8 +1039,9 @@
     {
       "title": "CVE-2026-31431 Exploitation: The Threat to Cloud-Native Kubernetes Integrity",
       "date": "2026-05-04",
+      "category": "geoCTI",
       "description": "The discovery of the 'Copy Fail' vulnerability (CVE-2026-31431) within the Linux kernel's crypto-subsystem provides a mechanism for unprivileged users to achieve root access across major distributions including Ubuntu, Red Hat, and Amazon Linux.",
-      "link": "posts/geoCTI/cve_2026_31431_exploitation_the_threat_to_cloud_native_kuber_2d278338.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/cve_2026_31431_exploitation_the_threat_to_cloud_native_kuber_2d278338.html",
       "tags": [
         "Microsoft Defender",
         "CISA",
@@ -987,8 +1053,9 @@
     {
       "title": "Data Exfiltration from Moldova's CNAM Database: Strategic Intelligence or Opportunistic Theft?",
       "date": "2026-05-04",
+      "category": "geoCTI",
       "description": "An unidentified hacking group successfully exfiltrated personal and financial data from Moldova's National Health Insurance Agency (CNAM), compromising the records of a significant portion of the Moldovan population.",
-      "link": "posts/geoCTI/data_exfiltration_from_moldovas_cnam_database_strategic_inte_9fe71e2e.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/data_exfiltration_from_moldovas_cnam_database_strategic_inte_9fe71e2e.html",
       "tags": [
         "CNAM",
         "Moldova's Cybersecurity Agency",
@@ -1001,8 +1068,9 @@
     {
       "title": "Extortion-Driven DDoS: Assessing the Pro-Iran Campaign Against Canonical",
       "date": "2026-05-04",
+      "category": "geoCTI",
       "description": "A pro-Iran hacktivist group has transitioned from disruptive DDoS attacks to an active extortion campaign targeting Canonical's web infrastructure.",
-      "link": "posts/geoCTI/extortion_driven_ddos_assessing_the_pro_iran_campaign_agains_5fe84593.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/extortion_driven_ddos_assessing_the_pro_iran_campaign_agains_5fe84593.html",
       "tags": [
         "Canonical",
         "Pro-Iran hacktivist group",
@@ -1014,8 +1082,9 @@
     {
       "title": "Post-Shai Hulud npm Supply Chain Evolution: From Package Poisoning to CI/CD Persistence",
       "date": "2026-05-04",
+      "category": "geoCTI",
       "description": "The npm ecosystem has transitioned from simple package poisoning to a more durable threat model involving wormable malware and CI/CD pipeline persistence.",
-      "link": "posts/geoCTI/post_shai_hulud_npm_supply_chain_evolution_from_package_pois_870b4204.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/post_shai_hulud_npm_supply_chain_evolution_from_package_pois_870b4204.html",
       "tags": [
         "Unit 42",
         "CTI",
@@ -1026,8 +1095,9 @@
     {
       "title": "SHADOW-EARTH-053 Operations Target NATO and Asian Government Sectors",
       "date": "2026-05-04",
+      "category": "geoCTI",
       "description": "A China-aligned threat cluster, designated SHADOW-EARTH-053 by Trend Micro, has executed a coordinated espionage campaign against government, defense, and media targets in South, East, and Southeast Asia, alongside a single NATO member state.",
-      "link": "posts/geoCTI/shadow_earth_053_operations_target_nato_and_asian_government_2efc0bb9.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/shadow_earth_053_operations_target_nato_and_asian_government_2efc0bb9.html",
       "tags": [
         "SHADOW-EARTH-053",
         "Trend Micro",
@@ -1040,8 +1110,9 @@
     {
       "title": "The Erosion of Medical Neutrality: Lessons from Russian Targeting in Ukraine",
       "date": "2026-05-04",
+      "category": "geoCTI",
       "description": "Russian forces in Ukraine have transitioned from incidental damage to the deliberate targeting of aid stations, evacuation routes, and trauma teams.",
-      "link": "posts/geoCTI/the_erosion_of_medical_neutrality_lessons_from_russian_targe_f5475bd3.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/the_erosion_of_medical_neutrality_lessons_from_russian_targe_f5475bd3.html",
       "tags": [
         "Russia",
         "Ukraine",
@@ -1053,8 +1124,9 @@
     {
       "title": "The Silicon Valley-Pentagon Nexus: Weaponizing LLMs in the Iran-US Conflict",
       "date": "2026-05-04",
+      "category": "geoCTI",
       "description": "The legal dispute between Elon Musk and Sam Altman over OpenAI's mission shift masks a deeper integration of frontier AI into US kinetic operations.",
-      "link": "posts/geoCTI/the_silicon_valley_pentagon_nexus_weaponizing_llms_in_the_ir_bddc06e5.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/the_silicon_valley_pentagon_nexus_weaponizing_llms_in_the_ir_bddc06e5.html",
       "tags": [
         "Elon Musk",
         "Sam Altman",
@@ -1075,8 +1147,9 @@
     {
       "title": "Trellix Source Code Breach: Assessing the Risk of Downstream Vulnerability Injection",
       "date": "2026-05-04",
+      "category": "geoCTI",
       "description": "Trellix has confirmed that an unauthorized actor gained access to a portion of its source code repository.",
-      "link": "posts/geoCTI/trellix_source_code_breach_assessing_the_risk_of_downstream_ecac508a.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/trellix_source_code_breach_assessing_the_risk_of_downstream_ecac508a.html",
       "tags": [
         "Trellix",
         "CTI",
@@ -1087,8 +1160,9 @@
     {
       "title": "US Defense Department Integration of Google, Microsoft, and OpenAI AI into Classified Systems",
       "date": "2026-05-04",
+      "category": "geoCTI",
       "description": "The US Department of Defense has formalized agreements with seven technology leaders, including Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection, and SpaceX, to deploy artificial intelligence within classified operational environments.",
-      "link": "posts/geoCTI/us_defense_department_integration_of_google_microsoft_and_op_bdc8bc0f.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/us_defense_department_integration_of_google_microsoft_and_op_bdc8bc0f.html",
       "tags": [
         "US Department of Defense",
         "Google",
@@ -1106,8 +1180,9 @@
     {
       "title": "AI-Augmented Exploitation in the Mexican Government Breach: From Data Exfiltration to Automated Forgery",
       "date": "2026-04-13",
+      "category": "geoCTI",
       "description": "A single operator leveraged Claude Code and ChatGPT to breach nine Mexican government entities between December 2025 and February 2026, compromising hundreds of millions of records.",
-      "link": "posts/geoCTI/ai-augmented_exploitation_in_the_mexican_government_breach_f_823e6a8a.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/ai-augmented_exploitation_in_the_mexican_government_breach_f_823e6a8a.html",
       "tags": [
         "CTI",
         "Espionage",
@@ -1129,8 +1204,9 @@
     {
       "title": "APT37's Use of Facebook and RokRAT Reveals a Shift Toward Social Engineering-Driven Espionage",
       "date": "2026-04-13",
+      "category": "geoCTI",
       "description": "North Korean threat actor APT37 has deployed a multi-stage infection chain leveraging Facebook social engineering to deliver the RokRAT malware.",
-      "link": "posts/geoCTI/apt37s_use_of_facebook_and_rokrat_reveals_a_shift_toward_soc_c064c133.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/apt37s_use_of_facebook_and_rokrat_reveals_a_shift_toward_soc_c064c133.html",
       "tags": [
         "APT37",
         "Attribution",
@@ -1145,8 +1221,9 @@
     {
       "title": "Compromised macOS Code Signing Certificate in Axios Supply Chain Attack Targets OpenAI",
       "date": "2026-04-13",
+      "category": "geoCTI",
       "description": "North Korean-linked actors successfully compromised a macOS code signing certificate via the Axios supply chain to impact OpenAI's environment.",
-      "link": "posts/geoCTI/compromised_macos_code_signing_certificate_in_axios_supply_c_a6376cc0.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/compromised_macos_code_signing_certificate_in_axios_supply_c_a6376cc0.html",
       "tags": [
         "Axios",
         "CTI",
@@ -1161,8 +1238,9 @@
     {
       "title": "FBI-Indonesian Police Takedown of W3LL Phishing Network Disrupts $20M Fraud Infrastructure",
       "date": "2026-04-13",
+      "category": "geoCTI",
       "description": "The FBI and Indonesian National Police successfully dismantled the W3LL phishing toolkit infrastructure, targeting a global operation responsible for $20 million in attempted fraud.",
-      "link": "posts/geoCTI/fbi-indonesian_police_takedown_of_w3ll_phishing_network_disr_6bc63e45.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/fbi-indonesian_police_takedown_of_w3ll_phishing_network_disr_6bc63e45.html",
       "tags": [
         "CTI",
         "Cyber Policy",
@@ -1177,8 +1255,9 @@
     {
       "title": "Fiber Optic Interception and PDF Zero-Days: Assessing Infrastructure Vulnerability",
       "date": "2026-04-13",
+      "category": "geoCTI",
       "description": "State-sponsored actors have successfully compromised fiber optic infrastructure to facilitate long-term signal intelligence collection.",
-      "link": "posts/geoCTI/fiber_optic_interception_and_pdf_zero-days_assessing_infrast_b1e97535.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/fiber_optic_interception_and_pdf_zero-days_assessing_infrast_b1e97535.html",
       "tags": [
         "CTI",
         "attacks",
@@ -1190,8 +1269,9 @@
     {
       "title": "Indonesia’s Disinformation Bill: Legal Expansion as a Tool for Domestic Political Control",
       "date": "2026-04-13",
+      "category": "geoCTI",
       "description": "The Indonesian government, led by Coordinating Minister Yusril Ihza Mahendra, is advancing a new legislative framework to regulate 'foreign propaganda' and disinformation.",
-      "link": "posts/geoCTI/indonesias_disinformation_bill_legal_expansion_as_a_tool_for_7aa09747.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/indonesias_disinformation_bill_legal_expansion_as_a_tool_for_7aa09747.html",
       "tags": [
         "Disinformation",
         "GEOPOLITICS",
@@ -1208,8 +1288,9 @@
     {
       "title": "OpenAI Certificate Revocation: Assessing the Scope of the Axios Supply Chain Breach",
       "date": "2026-04-13",
+      "category": "geoCTI",
       "description": "The compromise of the Axios npm package via the malicious 'plain-crypto-js' dependency allowed the North Korean group UNC1069 to execute the WAVESHAPER.V2 backdoor within OpenAI's macOS application...",
-      "link": "posts/geoCTI/openai_certificate_revocation_assessing_the_scope_of_the_axi_ab85079f.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/openai_certificate_revocation_assessing_the_scope_of_the_axi_ab85079f.html",
       "tags": [
         "Apple",
         "CTI",
@@ -1225,8 +1306,9 @@
     {
       "title": "Operation Atlantic: Assessing the Limits of Multi-Jurisdictional Crypto-Asset Seizures",
       "date": "2026-04-13",
+      "category": "geoCTI",
       "description": "The UK National Crime Agency, alongside US and Canadian law enforcement, successfully froze $12 million in cryptocurrency following a week-long crackdown on 'approval phishing' networks.",
-      "link": "posts/geoCTI/operation_atlantic_assessing_the_limits_of_multi-jurisdictio_7b0cf66e.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/operation_atlantic_assessing_the_limits_of_multi-jurisdictio_7b0cf66e.html",
       "tags": [
         "Binance",
         "CTI",
@@ -1246,8 +1328,9 @@
     {
       "title": "PlugX Deployment via Claude-Branded Phishing Targets AI-Adopting Workforces",
       "date": "2026-04-13",
+      "category": "geoCTI",
       "description": "Threat actors are weaponizing the rapid adoption of Large Language Models by deploying a trojanized Anthropic Claude installer to compromise end-user workstations.",
-      "link": "posts/geoCTI/plugx_deployment_via_claude-branded_phishing_targets_ai-adop_f1f3d8af.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/plugx_deployment_via_claude-branded_phishing_targets_ai-adop_f1f3d8af.html",
       "tags": [
         "Alibaba Cloud",
         "Anthropic",
@@ -1261,8 +1344,9 @@
     {
       "title": "US-Indonesia Cooperation Targets W3LL Phishing Infrastructure",
       "date": "2026-04-13",
+      "category": "geoCTI",
       "description": "The FBI Atlanta Field Office and Indonesian authorities successfully dismantled the W3LL phishing platform and arrested its developer.",
-      "link": "posts/geoCTI/us-indonesia_cooperation_targets_w3ll_phishing_infrastructur_0d62f8ef.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/us-indonesia_cooperation_targets_w3ll_phishing_infrastructur_0d62f8ef.html",
       "tags": [
         "CTI",
         "Cyber Policy",
@@ -1277,8 +1361,9 @@
     {
       "title": "Watering Hole Attack on CPUID Website Leverages DLL Sideloading for STX RAT Distribution",
       "date": "2026-04-13",
+      "category": "geoCTI",
       "description": "Threat actors compromised a secondary API on the CPUID website to redirect users to malicious installers for hardware monitoring tools like CPU-Z and HWMonitor.",
-      "link": "posts/geoCTI/watering_hole_attack_on_cpuid_website_leverages_dll_sideload_864ef8bc.html",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/watering_hole_attack_on_cpuid_website_leverages_dll_sideload_864ef8bc.html",
       "tags": [
         "Analysis",
         "Breakglass Intelligence",

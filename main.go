@@ -20,10 +20,12 @@ import (
 
 // Config
 const (
-	ContentDir   = "content"
-	OutputDir    = "posts"
-	TemplateFile = "_template.html"
-	DBFile       = "posts.json"
+	ContentDir    = "content"
+	OutputDir     = "posts"
+	TemplateFile  = "_template.html"
+	DBFile        = "posts.json"
+	GeoCTISiteDir = "geocti-site"
+	GeoCTIDomain  = "https://geocti.5ilent5pring.org"
 )
 
 // PostMetadata represents the Frontmatter in your MD files
@@ -47,6 +49,7 @@ type DBStructure struct {
 type PostEntry struct {
 	Title       string   `json:"title"`
 	Date        string   `json:"date"`
+	Category    string   `json:"category"`
 	Description string   `json:"description"`
 	Link        string   `json:"link"`
 	Tags        []string `json:"tags"`
@@ -80,6 +83,13 @@ func main() {
 
 	// 3. Initialize Database
 	db := DBStructure{
+		Technical:   []PostEntry{},
+		CaseStudies: []PostEntry{},
+		BookReviews: []PostEntry{},
+		SATNotes:    []PostEntry{},
+		GeoCTI:      []PostEntry{},
+	}
+	geoDB := DBStructure{
 		Technical:   []PostEntry{},
 		CaseStudies: []PostEntry{},
 		BookReviews: []PostEntry{},
@@ -147,13 +157,30 @@ func main() {
 		}
 		fmt.Printf("[+] Built: %s\n", outPath)
 
+		if category == "geoCTI" {
+			geoOutDir := filepath.Join(GeoCTISiteDir, OutputDir, category)
+			if err := os.MkdirAll(geoOutDir, 0755); err != nil {
+				return err
+			}
+			geoOutPath := filepath.Join(geoOutDir, cleanName+".html")
+			if err := ioutil.WriteFile(geoOutPath, finalHTML.Bytes(), 0644); err != nil {
+				return err
+			}
+			fmt.Printf("[+] Built: %s\n", geoOutPath)
+		}
+
 		// Add to Database Struct
 		entry := PostEntry{
 			Title:       title,
 			Date:        date,
+			Category:    category,
 			Description: desc,
 			Link:        fmt.Sprintf("posts/%s/%s.html", category, cleanName),
 			Tags:        tags,
+		}
+		geoEntry := entry
+		if category == "geoCTI" {
+			entry.Link = fmt.Sprintf("%s/posts/%s/%s.html", GeoCTIDomain, category, cleanName)
 		}
 
 		switch category {
@@ -167,6 +194,7 @@ func main() {
 			db.BookReviews = append(db.BookReviews, entry)
 		case "geoCTI":
 			db.GeoCTI = append(db.GeoCTI, entry)
+			geoDB.GeoCTI = append(geoDB.GeoCTI, geoEntry)
 		default:
 			// Default bucket or handle error
 			db.Technical = append(db.Technical, entry)
@@ -185,10 +213,17 @@ func main() {
 	sortPostEntries(db.BookReviews)
 	sortPostEntries(db.SATNotes)
 	sortPostEntries(db.GeoCTI)
+	sortPostEntries(geoDB.GeoCTI)
 
 	// 5. Write posts.json
 	jsonData, _ := json.MarshalIndent(db, "", "  ")
 	ioutil.WriteFile(DBFile, jsonData, 0644)
+	if err := os.MkdirAll(GeoCTISiteDir, 0755); err != nil {
+		fmt.Printf("Error creating geoCTI site dir: %v\n", err)
+		return
+	}
+	geoJSONData, _ := json.MarshalIndent(geoDB, "", "  ")
+	ioutil.WriteFile(filepath.Join(GeoCTISiteDir, DBFile), geoJSONData, 0644)
 	fmt.Println("[SUCCESS] Database updated.")
 }
 

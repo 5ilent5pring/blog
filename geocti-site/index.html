@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geoCTI lab - 5ilent5pring</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg: #000000;
+            --panel: #090909;
+            --panel-2: #111111;
+            --text: #ffffff;
+            --muted: #8c8c8c;
+            --border: #242424;
+            --accent: #ff0055;
+            --cyan: #8ef7ff;
+        }
+
+        body {
+            min-height: 100vh;
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'JetBrains Mono', 'Courier New', monospace;
+            line-height: 1.6;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+            background-size: 48px 48px;
+        }
+
+        a {
+            color: var(--text);
+            text-decoration: none;
+        }
+
+        .container {
+            width: min(1180px, calc(100% - 32px));
+            margin: 0 auto;
+            position: relative;
+        }
+
+        header {
+            padding: 2rem 0 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .brand {
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .nav-links a,
+        .control {
+            border: 1px solid var(--border);
+            background: var(--panel);
+            color: var(--muted);
+            padding: 0.6rem 0.9rem;
+            font-family: inherit;
+            font-size: 0.85rem;
+        }
+
+        .nav-links a:hover {
+            color: var(--bg);
+            background: var(--text);
+            border-color: var(--text);
+        }
+
+        .hero {
+            padding: 4.5rem 0 2.5rem;
+        }
+
+        h1 {
+            font-size: clamp(2.6rem, 8vw, 6rem);
+            letter-spacing: 0;
+            line-height: 0.95;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            max-width: 780px;
+            color: var(--muted);
+            font-size: 1rem;
+        }
+
+        .hero p::before,
+        .section-title::before {
+            content: "// ";
+            color: var(--accent);
+        }
+
+        .status-strip {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0 0;
+        }
+
+        .status-item {
+            border: 1px solid var(--border);
+            background: var(--panel);
+            padding: 1rem;
+        }
+
+        .status-item span {
+            display: block;
+            color: var(--muted);
+            font-size: 0.76rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.35rem;
+        }
+
+        .status-item strong {
+            font-size: 1.15rem;
+        }
+
+        .disclosure {
+            border: 1px solid var(--border);
+            background: var(--panel);
+            padding: 1.25rem;
+            margin: 2rem 0;
+            color: var(--muted);
+        }
+
+        .disclosure strong {
+            color: var(--text);
+        }
+
+        .toolbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin: 2rem 0 1.25rem;
+        }
+
+        .section-title {
+            font-size: clamp(1.4rem, 3vw, 2.25rem);
+            letter-spacing: 0;
+        }
+
+        .control {
+            min-width: min(100%, 320px);
+            outline: none;
+        }
+
+        .control:focus {
+            border-color: var(--accent);
+            color: var(--text);
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin-bottom: 4rem;
+        }
+
+        .card {
+            border: 1px solid var(--border);
+            background: var(--panel);
+            padding: 1.25rem;
+            min-height: 260px;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+            transition: border-color 0.2s, background 0.2s, transform 0.2s;
+        }
+
+        .card:hover {
+            border-color: var(--text);
+            background: var(--panel-2);
+            transform: translateY(-2px);
+        }
+
+        .meta {
+            color: var(--muted);
+            font-size: 0.76rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .badge {
+            color: var(--cyan);
+        }
+
+        .card h2 {
+            font-size: 1.05rem;
+            line-height: 1.35;
+        }
+
+        .card p {
+            color: var(--muted);
+            font-size: 0.9rem;
+            flex: 1;
+        }
+
+        .tags {
+            display: flex;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+        }
+
+        .tags span {
+            color: var(--accent);
+            font-size: 0.72rem;
+        }
+
+        .empty-state {
+            color: var(--muted);
+            border: 1px dashed var(--border);
+            padding: 1.25rem;
+            grid-column: 1 / -1;
+        }
+
+        footer {
+            color: var(--muted);
+            border-top: 1px solid var(--border);
+            padding: 2rem 0;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 720px) {
+            .hero {
+                padding-top: 3rem;
+            }
+
+            .card {
+                min-height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a class="brand" href="/">geoCTI_LAB</a>
+            <div class="nav-links">
+                <a href="https://5ilent5pring.org/">MAIN_BLOG</a>
+                <a href="https://5ilent5pring.org/#about">ABOUT</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>geoCTI</h1>
+            <p>AI-assisted cyber threat intelligence and geopolitics briefs generated from monitored source material, structured with SAT-style analysis, confidence notes, and source links.</p>
+
+            <div class="status-strip">
+                <div class="status-item">
+                    <span>briefs</span>
+                    <strong id="brief-count">--</strong>
+                </div>
+                <div class="status-item">
+                    <span>latest</span>
+                    <strong id="latest-date">--</strong>
+                </div>
+                <div class="status-item">
+                    <span>origin</span>
+                    <strong>AI-assisted</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="disclosure">
+            <strong>Reader note:</strong> geoCTI is an automated lab feed, not the main personal blog. Treat each brief as an analytical starting point: check the source link, confidence label, triage score, and SAT notes before relying on it.
+        </section>
+
+        <section>
+            <div class="toolbar">
+                <h2 class="section-title">brief_archive</h2>
+                <input id="search" class="control" type="search" placeholder="search briefs, actors, tags">
+            </div>
+            <div id="cards" class="cards-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">5ilent5pring // geoCTI lab</div>
+    </footer>
+
+    <script src="js/geocti.js?v=1"></script>
+</body>
+</html>
