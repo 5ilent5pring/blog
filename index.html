@@ -279,46 +279,6 @@
             max-width: 860px;
         }
 
-        .route-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.5rem;
-            margin: 1rem 0 3rem;
-        }
-
-        .route-panel {
-            border: 1px solid var(--border);
-            background: var(--bg-card);
-            padding: 1.5rem;
-        }
-
-        .route-panel h3 {
-            color: var(--primary);
-            margin-bottom: 0.75rem;
-            font-size: 1.1rem;
-        }
-
-        .route-panel p {
-            color: var(--text-muted);
-            font-size: 0.92rem;
-            margin-bottom: 1.25rem;
-        }
-
-        .route-panel a {
-            color: var(--primary);
-            text-decoration: none;
-            border-bottom: 1px solid var(--primary);
-            font-size: 0.85rem;
-        }
-
-        .section-label {
-            color: var(--text-muted);
-            font-size: 0.82rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 0.75rem;
-        }
-
         .empty-state {
             color: var(--text-muted);
             border: 1px dashed var(--border);
@@ -581,7 +541,7 @@
                 <button class="nav-btn" onclick="showPage('about', event)" data-page="about">ABOUT</button>
                 <button class="nav-btn" onclick="showPage('writings', event)" data-page="writings">WRITINGS</button>
                 <button class="nav-btn" onclick="showPage('sat', event)" data-page="sat">SAT_NOTES</button>
-                <a class="nav-btn" href="https://geocti.5ilent5pring.org/">geoCTI_LAB</a>
+                <a class="nav-btn" href="https://geocti.5ilent5pring.org/">geoCTI</a>
             </div>
         </nav>
     </header>
@@ -596,26 +556,11 @@
             </div>
             
             <div class="content container">
-                <div class="route-grid">
-                    <section class="route-panel">
-                        <div class="section-label">primary site</div>
-                        <h3>Human writing and tradecraft</h3>
-                        <p>Personal notes, structured analytic technique writeups, technical work, and case studies stay here under the main 5ilent5pring identity.</p>
-                        <a href="#writings" onclick="showPage('writings', event)">open writings</a>
-                    </section>
-                    <section class="route-panel">
-                        <div class="section-label">separate feed</div>
-                        <h3>geoCTI lab</h3>
-                        <p>AI-assisted CTI and geopolitics briefs move to their own subdomain with explicit provenance, confidence, and source metadata.</p>
-                        <a href="https://geocti.5ilent5pring.org/">open geoCTI</a>
-                    </section>
-                </div>
-
                 <h2 class="page-title">LATEST_WRITINGS</h2>
                 <p class="section-note">// Human-authored posts from the main blog. Automated geoCTI briefs are intentionally separated from this feed.</p>
                 <div class="cards-grid" id="latest-human-grid"></div>
 
-                <h2 class="page-title" style="margin-top: 4rem;">FROM_geoCTI_LAB</h2>
+                <h2 class="page-title" style="margin-top: 4rem;">FROM_geoCTI</h2>
                 <p class="section-note">// A small bridge to the AI-assisted intelligence feed without letting it dominate the main blog.</p>
                 <div class="cards-grid" id="geocti-preview-grid"></div>
             </div>
@@ -687,7 +632,7 @@
 
         <div id="geocti-page" class="page" style="display: none;">
             <div class="content container">
-                <h2 class="page-title">geoCTI_LAB</h2>
+                <h2 class="page-title">geoCTI</h2>
                 <div class="geo-handoff">
                     <p><strong>geoCTI has moved to a dedicated subdomain.</strong></p>
                     <p style="color: var(--text-muted); margin-top: 0.75rem;">Automated intelligence briefs now live at <a href="https://geocti.5ilent5pring.org/">geocti.5ilent5pring.org</a> so readers can distinguish AI-assisted briefings from the human-authored main blog.</p>
