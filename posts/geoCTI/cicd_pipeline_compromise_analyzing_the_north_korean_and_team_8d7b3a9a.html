@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD Pipeline Compromise: Analyzing the North Korean and TeamPCP Supply Chain Campaigns - 5ilent5pring</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+         
+        :root { --bg-dark: #000000; --text: #ffffff; --accent: #ff0055; --text-muted: #888888; }
+        body { font-family: 'JetBrains Mono', monospace; background: var(--bg-dark); color: var(--text); line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 2rem; }
+        h1, h2, h3 { color: var(--text); margin-top: 2rem; }
+        h1 { border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; }
+        a { color: var(--accent); text-decoration: none; }
+        .metadata { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 2rem; }
+        .analysis-meta { color: var(--accent); margin-bottom: 1.5rem; }
+        .analysis-meta strong { color: var(--accent); }
+        .back-btn { display: inline-block; margin-bottom: 2rem; color: var(--text-muted); }
+        .back-btn:hover { color: var(--accent); }
+        code { background: #1a1a1a; padding: 0.2rem 0.4rem; border-radius: 4px; color: var(--accent); }
+        img { max-width: 100%; border: 1px solid var(--text-muted); }
+    </style>
+</head>
+<body>
+    <a href="../../index.html#geoCTI" class="back-btn">← ../return_to_base</a>
+    <article>
+        <h1>CI/CD Pipeline Compromise: Analyzing the North Korean and TeamPCP Supply Chain Campaigns</h1>
+        <div class="metadata">
+            <span>> DATE: 2026-05-11</span> | 
+            <span>> CATEGORY: geoCTI</span>
+        </div>
+        
+        <p class="analysis-meta"><strong>Confidence:</strong> high | <strong>Triage Score:</strong> 8/10 | <strong>Category:</strong> Supply Chain | <strong>Key Actors:</strong> North Korean actors, TeamPCP, European Commission, InvisiRisk | <strong>SAT Techniques:</strong> Attack Tree Analysis, Key Assumptions Check, Indicators & Warnings</p>
+<p>In early 2026, North Korean actors and the TeamPCP group executed a series of high-impact supply chain operations targeting the software build process. By hijacking the Axios npm library and compromising critical security tools like Trivy and LiteLLM, these actors bypassed traditional perimeter defenses to inject malicious code directly into downstream environments. The successful exfiltration of 300Gb of data from the European Commission proves that the primary vulnerability is no longer the software perimeter, but the integrity of the automated build-time dependencies.</p>
+<h2>Attack Tree Analysis</h2>
+<ul>
+<li>The primary entry vector is the compromise of trusted upstream dependencies and build-time security tooling.
+<ul>
+<li>Actors specifically targeted the Axios npm library via account hijacking and compromised the Trivy vulnerability scanner to gain access to CI/SD pipelines. This method bypasses static analysis by ensuring the malicious payload is introduced during the automated execution of the build process itself. Evidence of a shift toward targeting the 'doorman' (scanners) rather than the 'guest' (code) would reverse this assessment.</li>
+<li><em>almost certainly</em></li>
+</ul>
+</li>
+<li>The blast radius extends to thousands of downstream organizations and critical governmental data repositories.
+<ul>
+<li>The Axios compromise affected approximately 3% of its userbase, while the LiteLLM attack impacted thousands of companies, including Mercor. The most severe impact was the loss of 300Gb of data from the European Commission. A shift toward localized, single-target compromises rather than broad-spectrum dependency poisoning would reverse this assessment.</li>
+<li><em>almost certainly</em></li>
+</ul>
+</li>
+<li>Target selection logic prioritizes high-trust, automated-pull dependencies to maximize silent distribution.
+<ul>
+<li>The selection of Axios and Trivy demonstrates a preference for components that are automatically pulled by build systems without manual developer intervention. This choice reveals an intelligence priority on achieving persistence within the software development lifecycle (SDLC) rather than immediate disruption. A move toward targeting bespoke, low-usage enterprise software would reverse this assessment.</li>
+<li><em>likely</em></li>
+</ul>
+</li>
+</ul>
+<h2>Key Assumptions Check</h2>
+<ul>
+<li>The North Korean operation was a targeted effort to establish long-term remote access rather than a purely opportunistic financial theft.
+<ul>
+<li>The deployment of a remote access trojan via the Axios library suggests a focus on establishing a foothold for future operations. The presence of immediate, destructive ransomware or large-scale cryptocurrency theft during the brief window of the Axios compromise would reverse this assessment.</li>
+<li><em>likely</em></li>
+</ul>
+</li>
+<li>The TeamPCP campaign was designed for large-scale data exfiltration and credential harvesting.
+<ul>
+<li>The compromise of the Trivy scanner directly led to the theft of 300Gb of data from the European Commission via compromised API keys. If the TeamPCP activity had resulted in only localized system disruption or service outages without evidence of data movement, this assessment would be reversed.</li>
+<li><em>almost certainly</em></li>
+</ul>
+</li>
+</ul>
+<h2>Indicators &amp; Warnings</h2>
+<ul>
+<li>Watch for anomalous outbound traffic from CI/CD runners to legitimate cloud providers like GitHub or PyPI.
+<ul>
+<li>Since the article notes that hardened runners often permit DNS traffic to trusted destinations, defenders must monitor for deep packet inspection anomalies where 'legitimate' destinations receive unexpected data payloads. The discovery of attackers using entirely new, non-standard C2 infrastructure instead of hijacking existing cloud services would reverse this assessment.</li>
+<li><em>days-weeks</em></li>
+</ul>
+</li>
+<li>Monitor for unauthorized API key usage or unexpected secret distribution during the build phase.
+<ul>
+<li>The European Commission breach was facilitated by a compromised API key originating from the Trivy supply chain attack. An indicator that would challenge the current assessment is the emergence of attacks that bypass the build process entirely to target developers via social engineering or endpoint compromise.</li>
+<li><em>weeks-months</em></li>
+</ul>
+</li>
+</ul>
+<h2>What to Watch For</h2>
+<p>Analysts should monitor for unexpected outbound data flows from build environments to GitHub and PyPI, specifically looking for payloads that deviate from standard package metadata. A signal that would challenge the current focus on CI/CD poisoning would be a sudden spike in successful breaches targeting developer workstations via phishing, suggesting a return to traditional endpoint-centric vectors.</p>
+<h2>Discussion</h2>
+<ul>
+<li>How does the rise of 'Build Application Firewalls' change the cost-benefit calculus for nation-state actors who currently rely on the 'Mythos effect' of undetected zero-days?</li>
+<li>If the integrity of the software supply chain can no longer be verified via static SBOMs, what new regulatory frameworks are required to govern the liability of upstream open-source maintainers?</li>
+</ul>
+<p><em>SAT Techniques: Attack Tree Analysis, Key Assumptions Check, Indicators &amp; Warnings</em></p>
+<hr>
+<p>Source: <a href="https://www.securityweek.com/build-application-firewalls-aim-to-stop-the-next-supply-chain-attack/">SecurityWeek</a></p>
+
+        
+    </article>
+</body>
+</html>

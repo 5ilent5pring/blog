@@ -18,6 +18,20 @@
   ],
   "geoCTI": [
     {
+      "title": "AI-Assisted Zero-Day Exploitation: Assessing the Vulnerability of Web-Based System Administration Tools",
+      "date": "2026-05-11",
+      "description": "Cybercriminal groups have successfully utilized large language models to identify and weaponize a zero-day vulnerability targeting a web-based system administration tool.",
+      "link": "posts/geoCTI/ai_assisted_zero_day_exploitation_assessing_the_vulnerabilit_3e238f2a.html",
+      "tags": [
+        "Google Threat Intelligence Group",
+        "PRC",
+        "DPRK",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "AI-Driven Exploit Development and the Automation of China-Nexus Vulnerability Research",
       "date": "2026-05-11",
       "description": "Threat actors, specifically those linked to China and North Korea, are transitioning from manual vulnerability discovery to using Large Language Models (LLMs) for automated exploit generation and attack orchestration.",
@@ -50,6 +64,37 @@
         "UNC5673",
         "UNC6201",
         "Russia",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "CI/CD Pipeline Compromise: Analyzing the North Korean and TeamPCP Supply Chain Campaigns",
+      "date": "2026-05-11",
+      "description": "In early 2026, North Korean actors and the TeamPCP group executed a series of high-impact supply chain operations targeting the software build process.",
+      "link": "posts/geoCTI/cicd_pipeline_compromise_analyzing_the_north_korean_and_team_8d7b3a9a.html",
+      "tags": [
+        "North Korean actors",
+        "TeamPCP",
+        "European Commission",
+        "InvisiRisk",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Claude Code Mimicry Campaign Targets Developer Credentials via Chromium Exploitation",
+      "date": "2026-05-11",
+      "description": "An unidentified threat actor is deploying a specialized information stealer through fraudulent Claude Code installation pages to compromise developer workstations.",
+      "link": "posts/geoCTI/claude_code_mimicry_campaign_targets_developer_credentials_v_600bf6b3.html",
+      "tags": [
+        "Anthropic",
+        "Ontinue",
+        "Black Duck",
+        "Russia",
+        "Iran",
         "CTI",
         "attacks",
         "breaking"
@@ -100,6 +145,37 @@
         "Andris Sprūds",
         "Evika Siliņa",
         "Andrii Sybiha",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "TeamPCP Exploits Checkmarx Credential Management Failures to Re-enter Jenkins Pipelines",
+      "date": "2026-05-11",
+      "description": "TeamPCP has successfully executed a secondary breach of Checkmarx infrastructure, specifically targeting the Checkmarx Jenkins plugin version 2026.5.09.",
+      "link": "posts/geoCTI/teampcp_exploits_checkmarx_credential_management_failures_to_614caf13.html",
+      "tags": [
+        "TeamPCP",
+        "Checkmarx",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "US Export Controls Create a Friction Point for Ukrainian Defense Tech Integration",
+      "date": "2026-05-11",
+      "description": "US investors are aggressively funding Ukrainian drone startups like Swarmer, yet the existing ITAR-style regulatory framework prevents the rapid deployment of US-developed technology back to the Ukrainian front lines.",
+      "link": "posts/geoCTI/us_export_controls_create_a_friction_point_for_ukrainian_def_86dcdf00.html",
+      "tags": [
+        "US Department of Defense",
+        "Airlogix",
+        "Swarmer",
+        "SkyFall",
+        "SkyCutter",
+        "Auterion",
+        "Foundation for Defense of Democracies",
         "CTI",
         "attacks",
         "breaking"
