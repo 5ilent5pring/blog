@@ -5,6 +5,43 @@
   "sat-notes": [],
   "geoCTI": [
     {
+      "title": "Canada’s Bill C-22: Mandated Backdoors and the Erosion of Encryption Integrity",
+      "date": "2026-05-12",
+      "category": "geoCTI",
+      "description": "The Canadian government is attempting to reintroduce the Lawful Access Act via Bill C-22, a legislative effort that seeks to expand metadata retention and grant the Minister of Public Safety authority to mandate service access.",
+      "link": "posts/geoCTI/canadas_bill_c_22_mandated_backdoors_and_the_erosion_of_encr_cbd458ac.html",
+      "tags": [
+        "Canada",
+        "United States",
+        "Apple",
+        "Meta",
+        "UK Government",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Chinese Diplomatic Pressure and the Cancellation of RightsCon 2026 in Zambia",
+      "date": "2026-05-12",
+      "category": "geoCTI",
+      "description": "The abrupt cancellation of RightsCon 2026 in Lusaka, Zambia, follows direct political pressure to censor specific geopolitical identities and topics.",
+      "link": "posts/geoCTI/chinese_diplomatic_pressure_and_the_cancellation_of_rightsco_c63db4d8.html",
+      "tags": [
+        "EFF",
+        "RightsCon",
+        "Zambia",
+        "China",
+        "Access Now",
+        "Index on Censorship",
+        "IFEX",
+        "Taiwan",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "Compute Scarcity and the Scaling of Maven Smart System in Operation Epic Fury",
       "date": "2026-05-12",
       "category": "geoCTI",
@@ -56,6 +93,37 @@
       ]
     },
     {
+      "title": "Japan's Cybersecurity Review: Assessing the Threat of Anthropic Mythos",
+      "date": "2026-05-12",
+      "category": "geoCTI",
+      "description": "The Japanese Prime Minister has initiated a formal cybersecurity review to mitigate the potential for 'Mythos' to escalate into a 'CyberZilla' level event.",
+      "link": "posts/geoCTI/japans_cybersecurity_review_assessing_the_threat_of_anthropi_ac40dfe2.html",
+      "tags": [
+        "Japanese Prime Minister",
+        "Anthropic",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Saudi Judicial Volatility and the Targeting of Digital Information Arbiters",
+      "date": "2026-05-12",
+      "category": "geoCTI",
+      "description": "The Saudi Arabian government's sentencing of Wikipedia contributor Osama Khalid—fluctuating between 32 and 14 years—demonstrates a judicial strategy of using arbitrary legal weight to suppress digital dissent.",
+      "link": "posts/geoCTI/saudi_judicial_volatility_and_the_targeting_of_digital_infor_2dba5b49.html",
+      "tags": [
+        "Saudi Arabia",
+        "EFF",
+        "ALQST",
+        "Osama Khalid",
+        "Loujain al-Hathloul",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "TeamPCP Exploits Checkmarx Repository Access to Poison Jenkins Plugin Ecosystem",
       "date": "2026-05-12",
       "category": "geoCTI",
@@ -86,6 +154,19 @@
         "Socket",
         "StepSecurity",
         "Wiz",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The Invisible Perimeter: Why State-Sponsored Actors Bypass Traditional Trust Boundaries",
+      "date": "2026-05-12",
+      "category": "geoCTI",
+      "description": "State-sponsored adversaries are fundamentally altering the utility of the cyber kill chain by prioritizing long-term persistence over immediate disruption.",
+      "link": "posts/geoCTI/the_invisible_perimeter_why_state_sponsored_actors_bypass_tr_77fdd3c7.html",
+      "tags": [
+        "Cisco Talos",
         "CTI",
         "attacks",
         "breaking"
