@@ -5,6 +5,93 @@
   "sat-notes": [],
   "geoCTI": [
     {
+      "title": "Compute Scarcity and the Scaling of Maven Smart System in Operation Epic Fury",
+      "date": "2026-05-12",
+      "category": "geoCTI",
+      "description": "The Pentagon's recent deployment of the Maven Smart System (MSS) during the 38-day air war against Iran represents a fundamental shift from experimental AI to high-volume kinetic targeting.",
+      "link": "posts/geoCTI/compute_scarcity_and_the_scaling_of_maven_smart_system_in_op_62d2e77a.html",
+      "tags": [
+        "Pentagon",
+        "Iran",
+        "Palantir",
+        "National Geospatial Intelligence Agency",
+        "Iranian Revolutionary Guard Corps",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Decentralized Communication Infrastructure as a Counter-State Tool Against Internet Shutdowns",
+      "date": "2026-05-12",
+      "category": "geoCTI",
+      "description": "State actors in Iran, Venezuela, and Syria are increasingly utilizing total internet blackouts to facilitate kinetic operations and suppress domestic dissent.",
+      "link": "posts/geoCTI/decentralized_communication_infrastructure_as_a_counter_stat_705a3429.html",
+      "tags": [
+        "Iran",
+        "Venezuela",
+        "United States",
+        "India",
+        "Syria",
+        "UK",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "FCC Extension of Foreign-Made Router Updates to 2029: A Tactical Retreat in the Hardware Decoupling Race",
+      "date": "2026-05-12",
+      "category": "geoCTI",
+      "description": "The Federal Communications Commission (FCC) has extended the deadline for software and firmware updates for prohibited foreign-made routers and drones from March 2027 to January 2029.",
+      "link": "posts/geoCTI/fcc_extension_of_foreign_made_router_updates_to_2029_a_tacti_8db41ba2.html",
+      "tags": [
+        "FCC",
+        "Consumer Technology Association",
+        "White House",
+        "Office of Engineering and Technology (OET)",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "TeamPCP Exploits Checkmarx Repository Access to Poison Jenkins Plugin Ecosystem",
+      "date": "2026-05-12",
+      "category": "geoCTI",
+      "description": "The TeamPCP threat group successfully weaponized credentials stolen during the March Trivy supply-chain attack to compromise Checkmarx's GitHub repositories and distribute a malicious Jenkins AST plugin.",
+      "link": "posts/geoCTI/teampcp_exploits_checkmarx_repository_access_to_poison_jenki_1abb9521.html",
+      "tags": [
+        "TeamPCP",
+        "Checkmarx",
+        "LAPSUS$",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "TeamPCP's Exploitation of SLSA Provenance in TanStack and Mistral AI Supply Chain Attacks",
+      "date": "2026-05-12",
+      "category": "geoCTI",
+      "description": "The threat actor TeamPCP successfully bypassed modern software supply chain defenses by hijacking legitimate release pipelines to distribute malicious npm and PyPI packages.",
+      "link": "posts/geoCTI/teampcps_exploitation_of_slsa_provenance_in_tanstack_and_mis_cea55241.html",
+      "tags": [
+        "TeamPCP",
+        "TanStack",
+        "Mistral AI",
+        "UiPath",
+        "OpenSearch",
+        "Guardrails AI",
+        "Socket",
+        "StepSecurity",
+        "Wiz",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "AI-Assisted Zero-Day Exploitation: Assessing the Vulnerability of Web-Based System Administration Tools",
       "date": "2026-05-11",
       "category": "geoCTI",
