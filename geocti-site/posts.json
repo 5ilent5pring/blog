@@ -21,6 +21,23 @@
       ]
     },
     {
+      "title": "GemStuffer: RubyGems as a Decentralized Data Dead Drop for UK Local Government Scraping",
+      "date": "2026-05-14",
+      "category": "geoCTI",
+      "description": "The GemStuffer campaign repurposes the RubyGems registry from a software distribution platform into a stateless data transport mechanism.",
+      "link": "posts/geoCTI/gemstuffer_rubygems_as_a_decentralized_data_dead_drop_for_uk_0cafe714.html",
+      "tags": [
+        "GemStuffer",
+        "Socket",
+        "Lambeth Council",
+        "Wandsworth Council",
+        "Southwark Council",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "Geofencing and PicassoLoader: Assessing Ghostwriter's Targeted Ukrainian Campaign",
       "date": "2026-05-14",
       "category": "geoCTI",
@@ -72,6 +89,37 @@
       ]
     },
     {
+      "title": "Nitrogen Ransomware Breach of Foxconn Facilities Targets High-Value Intellectual Property",
+      "date": "2026-05-14",
+      "category": "geoCTI",
+      "description": "The Nitrogen ransomware group successfully exfiltrated approximately 8TB of data from Foxconn’s North American manufacturing sites, compromising technical documentation for major technology leaders including Apple, Nvidia, and Google.",
+      "link": "posts/geoCTI/nitrogen_ransomware_breach_of_foxconn_facilities_targets_hig_2c6e4219.html",
+      "tags": [
+        "Foxconn",
+        "Nitrogen",
+        "Apple",
+        "Nvidia",
+        "Google",
+        "Intel",
+        "Amazon",
+        "Dell",
+        "Huawei",
+        "Microsoft",
+        "Nintendo",
+        "Sony",
+        "Xiaomi",
+        "JPMorgan Chase",
+        "AMD",
+        "ASPEED",
+        "Renesas",
+        "Hewlett Packard Enterprise",
+        "Tencent",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "Reforming U.S. Cyber Command's Operational Clock to Match Crisis Timelines",
       "date": "2026-05-14",
       "category": "geoCTI",
@@ -83,6 +131,55 @@
         "Department of Defense",
         "Al-Qaeda-affiliated group",
         "Treasury Department",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The Arrest of Owe Martin Andresen and the Persistence of Dream Market Private Keys",
+      "date": "2026-05-14",
+      "category": "geoCTI",
+      "description": "U.S.",
+      "link": "posts/geoCTI/the_arrest_of_owe_martin_andresen_and_the_persistence_of_dre_2e48bacb.html",
+      "tags": [
+        "Owe Martin AndresEN",
+        "U.S. Department of Justice",
+        "German law enforcement",
+        "Dream Market",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The Simba UGV Debut: Ukrainian Autonomy Testing NATO's Eastern Flank Logistics",
+      "date": "2026-05-14",
+      "category": "geoCTI",
+      "description": "The deployment of the Ukrainian-made Simba UGV during the Crystal Arrow 2026 exercise in Latvia marks a transition from clandestine battlefield utility to formal NATO procurement integration.",
+      "link": "posts/geoCTI/the_simba_ugv_debut_ukrainian_autonomy_testing_natos_eastern_172a0738.html",
+      "tags": [
+        "Ukraine",
+        "NATO",
+        "UGV Laboratory",
+        "Task Force X",
+        "Starlink",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "West Point Training Models as a Blueprint for Mitigating AI Automation Bias",
+      "date": "2026-05-14",
+      "category": "geoCTI",
+      "description": "A recent multi-university study involving West Point cadets demonstrates that targeted academic curricula can significantly reduce automation bias and algorithm aversion compared to the general public.",
+      "link": "posts/geoCTI/west_point_training_models_as_a_blueprint_for_mitigating_ai_1e7f173b.html",
+      "tags": [
+        "West Point",
+        "Georgetown University",
+        "University of Pennsylvania",
+        "U.S. Military Academy",
         "CTI",
         "attacks",
         "breaking"
