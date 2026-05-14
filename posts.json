@@ -19,6 +19,90 @@
   ],
   "geoCTI": [
     {
+      "title": "Fiber-Optic FPV Drones and the Israeli Defense Industry's Race for Counter-UAS Solutions",
+      "date": "2026-05-14",
+      "category": "geoCTI",
+      "description": "The Israel Defense Forces (IDF) face an escalating tactical crisis in Lebanon as Hezbollah deploys fiber-optic-guided FPV drones that bypass traditional electronic warfare jamming.",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/fiber_optic_fpv_drones_and_the_israeli_defense_industrys_rac_cec22921.html",
+      "tags": [
+        "Israel Defense Forces",
+        "Hezbollah",
+        "Smart Shooter",
+        "Axon Vision",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Geofencing and PicassoLoader: Assessing Ghostwriter's Targeted Ukrainian Campaign",
+      "date": "2026-05-14",
+      "category": "geoCTI",
+      "description": "The Belarus-aligned threat group Ghostwriter has deployed a new, geographically-restricted phishing chain targeting Ukrainian government, military, and defense sectors.",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/geofencing_and_picassoloader_assessing_ghostwriters_targeted_cc10cc8e.html",
+      "tags": [
+        "Ghostwriter",
+        "Gamaredon",
+        "BO Team",
+        "Head Mare",
+        "Hive0117",
+        "Ukrtelecom",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Kimsuky's Pivot to Legitimate Tooling and Rust-based Malware in Global Defense Sectors",
+      "date": "2026-05-14",
+      "category": "geoCTI",
+      "description": "Kimsuky has transitioned from using basic open-source RATs to a more sophisticated, multi-layered toolkit featuring the PebbleDash malware cluster and legitimate administrative utilities like VSCode Tunneling.",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/kimsukys_pivot_to_legitimate_tooling_and_rust_based_malware_6fec6bf8.html",
+      "tags": [
+        "Kimsuky",
+        "Lazarus Group",
+        "APT43",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Mustang Panda's FDMTP Update Signals Persistent Asia-Pacific Espionage Infrastructure",
+      "date": "2026-05-14",
+      "category": "geoCTI",
+      "description": "Between late September 2025 and April 2026, the China-aligned actor Mustang Panda deployed an updated version of the FDMTP backdoor to target networks in Japan and the Asia-Pacific region.",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/mustang_pandas_fdmtp_update_signals_persistent_asia_pacific_65073deb.html",
+      "tags": [
+        "Mustang Panda",
+        "Twill Typhoon",
+        "Earth Preta",
+        "Stately Taurus",
+        "Bronze President",
+        "TA416",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Reforming U.S. Cyber Command's Operational Clock to Match Crisis Timelines",
+      "date": "2026-05-14",
+      "category": "geoCTI",
+      "description": "The author argues that U.S.",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/reforming_us_cyber_commands_operational_clock_to_match_crisi_4241a9fb.html",
+      "tags": [
+        "U.S. Cyber Command",
+        "National Security Agency",
+        "Department of Defense",
+        "Al-Qaeda-affiliated group",
+        "Treasury Department",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "Australia's AUKUS Expansion and the Strategic Shift Toward Domestic Munitions Autonomy",
       "date": "2026-05-13",
       "category": "geoCTI",
