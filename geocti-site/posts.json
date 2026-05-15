@@ -5,6 +5,85 @@
   "sat-notes": [],
   "geoCTI": [
     {
+      "title": "FrostyNeighbor's March 2026 Ukraine Campaign: Targeted Payload Delivery via Ukrtelecom Impersonation",
+      "date": "2026-05-15",
+      "category": "geoCTI",
+      "description": "FrostyNeighbor, a long-running cyberespionage actor linked to Belarusian interests, has deployed a new JavaScript-based PicassoLoader variant to compromise Ukrainian governmental organizations.",
+      "link": "posts/geoCTI/frostyneighbors_march_2026_ukraine_campaign_targeted_payload_7cb108bd.html",
+      "tags": [
+        "FrostyNeighbor",
+        "Ukraine",
+        "Belarus",
+        "Poland",
+        "Lithuania",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Modular Evolution of Kazuar: Turla's Shift Toward P2P Resilience",
+      "date": "2026-05-15",
+      "category": "geoCTI",
+      "description": "The Russian FSB-affiliated group Turla has re-engineered its Kazuar backdoor from a monolithic framework into a modular, peer-to-peer botnet architecture.",
+      "link": "posts/geoCTI/modular_evolution_of_kazuar_turlas_shift_toward_p2p_resilien_6965023d.html",
+      "tags": [
+        "Turla",
+        "FSB",
+        "Microsoft Threat Intelligence",
+        "CISA",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Modular Resilience in the Kazuar Botnet: Secret Blizzard's Shift to P2P Persistence",
+      "date": "2026-05-15",
+      "category": "geoCTI",
+      "description": "The Russian state actor Secret Blizzard has transitioned the Kazuar malware from a monolithic backdoor into a decentralized, peer-to-peer (P2P) ecosystem.",
+      "link": "posts/geoCTI/modular_resilience_in_the_kazuar_botnet_secret_blizzards_shi_aceb0654.html",
+      "tags": [
+        "Secret Blizzard",
+        "Aqua Blizzard",
+        "Microsoft Threat Intelligence",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "ODNI Reorganization and the Erosion of CISA's Election Security Distribution Model",
+      "date": "2026-05-15",
+      "category": "geoCTI",
+      "description": "Director of National Intelligence Tulsi Gabbard has appointed Dave Mastro and James Cangialosi to lead a centralized interagency effort to monitor the 2026 election cycle.",
+      "link": "posts/geoCTI/odni_reorganization_and_the_erosion_of_cisas_election_securi_0d3c22d9.html",
+      "tags": [
+        "ODNI",
+        "CISA",
+        "US Cyber Command",
+        "National Security Agency",
+        "House Intelligence Committee",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The Canvas Data Breach: Why Criminal Deletion Claims Fail the Credibility Test",
+      "date": "2026-05-15",
+      "category": "geoCTI",
+      "description": "Hackers targeting the Canvas learning management system have claimed to delete stolen student data, a move security professionals view with extreme skepticism.",
+      "link": "posts/geoCTI/the_canvas_data_breach_why_criminal_deletion_claims_fail_the_91bbd5f4.html",
+      "tags": [
+        "Canvas",
+        "UK Members of Parliament",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "Fiber-Optic FPV Drones and the Israeli Defense Industry's Race for Counter-UAS Solutions",
       "date": "2026-05-14",
       "category": "geoCTI",
