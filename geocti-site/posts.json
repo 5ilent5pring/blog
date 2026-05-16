@@ -19,6 +19,37 @@
       ]
     },
     {
+      "title": "Financial Links Between Igor Khudokormov and Russkaya Obshchina Reveal State-Aligned Paramilitary Coordination",
+      "date": "2026-05-16",
+      "category": "geoCTI",
+      "description": "The BBC investigation into Russkaya Obshchina reveals a direct financial pipeline from billionaire Igor Khudokormov and analyst Sergei Mikheyev to Russia's largest nationalist organization.",
+      "link": "posts/geoCTI/financial_links_between_igor_khudokormov_and_russkaya_obshch_b8fed869.html",
+      "tags": [
+        "Russkaya Obshchina",
+        "FSB",
+        "Serge                Mikheyev",
+        "Igor Khudokormov",
+        "Dmitry Patrushev",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Kinetic Escalation in Ryazan: Assessing the Strategic Shift in Ukrainian Drone Targeting",
+      "date": "2026-05-16",
+      "category": "geoCTI",
+      "description": "On May 15, Ukrainian drone strikes hit the Ryazan oil refinery, causing a significant fire and resulting in four fatalities, including a child.",
+      "link": "posts/geoCTI/kinetic_escalation_in_ryazan_assessing_the_strategic_shift_i_7a8b8729.html",
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "L3Harris argues for universal regulatory relief to sustain the 'Arsenal of Freedom'",
       "date": "2026-05-16",
       "category": "geoCTI",
@@ -47,6 +78,57 @@
         "Inspector General",
         "U.S. Southern Command",
         "House Armed Services Committee",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Russian Citizenship Expansion in Transnistria: A Mobilization Strategy for the War in Ukraine",
+      "date": "2026-05-16",
+      "category": "geoCTI",
+      "description": "Russia has simplified the naturalization process for residents of the breakaway region of Transnistria, a move President Zelenskyy identifies as a mechanism to expand the Russian military manpower pool through mandatory service obligations.",
+      "link": "posts/geoCTI/russian_citizenship_expansion_in_transnistria_a_mobilization_7ac69403.html",
+      "tags": [
+        "Russia",
+        "Ukraine",
+        "Moldova",
+        "Transnistria",
+        "Zelenskyy",
+        "Sandu",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Russian Ministry of Digital Development's VPN Mandate Erodes Domestic E-commerce Revenue",
+      "date": "2026-05-16",
+      "category": "geoCTI",
+      "description": "The Russian Ministry of Digital Development, led by Maksut Shadayev, enforced a mandate in April requiring platforms to block VPN-enabled traffic under threat of losing IT accreditation.",
+      "link": "posts/geoCTI/russian_ministry_of_digital_developments_vpn_mandate_erodes_b79db16e.html",
+      "tags": [
+        "Ministry of Digital Development",
+        "Wildberries",
+        "Ozon",
+        "Yandex Market",
+        "Avito",
+        "Association of Internet Trade Companies",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The 'Economic Fury' Strategy and the Fragility of the US-Iran Ceasefire",
+      "date": "2026-05-16",
+      "category": "geoCTI",
+      "description": "The United States has intensified its 'Economic Fury' campaign against Iran, deploying new sanctions tranches to disrupt Iranian oil trade and banking networks.",
+      "link": "posts/geoCTI/the_economic_fury_strategy_and_the_fragility_of_the_us_iran_67fc1bef.html",
+      "tags": [
+        "United States",
+        "Iran",
+        "Pakistan",
         "CTI",
         "attacks",
         "breaking"
