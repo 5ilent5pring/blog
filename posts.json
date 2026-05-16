@@ -19,6 +19,87 @@
   ],
   "geoCTI": [
     {
+      "title": "Credential Exfiltration via TanStack Supply Chain Compromise Targets OpenAI Internal Repositories",
+      "date": "2026-05-16",
+      "category": "geoCTI",
+      "description": "Threat actors successfully compromised the TanStack open-source library to execute a targeted credential-harvesting campaign against high-value developers.",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/credential_exfiltration_via_tanstack_supply_chain_compromise_0f970abd.html",
+      "tags": [
+        "OpenAI",
+        "TanStack",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "L3Harris argues for universal regulatory relief to sustain the 'Arsenal of Freedom'",
+      "date": "2026-05-16",
+      "category": "geoCTI",
+      "description": "L3Harris President Sam Mehta is advocating for the removal of regulatory disparities between 'nontraditional' startups and established defense contractors within the FY2026 NDAA framework.",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/l3harris_argues_for_universal_regulatory_relief_to_sustain_t_3712b0c9.html",
+      "tags": [
+        "L3Harris",
+        "Department of War",
+        "China",
+        "Russia",
+        "US Congress",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Pentagon Inspector General Report: Hegseth’s CHMR-AP Defunding Erodes Operational Legitimacy",
+      "date": "2026-05-16",
+      "category": "geoCTI",
+      "description": "The Department of War Inspector General has documented a systemic failure to implement the 2022 Civilian Harm Mitigation and Response Action Plan (CHMR-AP) due to aggressive budget and personnel cuts under Secretary Pete Hegseth.",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/pentagon_inspector_general_report_hegseths_chmr_ap_defunding_52678618.html",
+      "tags": [
+        "Department of War",
+        "Pete Hegseth",
+        "Inspector General",
+        "U.S. Southern Command",
+        "House Armed Services Committee",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The Emergence of a Chinese Sphere by Default",
+      "date": "2026-05-16",
+      "category": "geoCTI",
+      "description": "The recent Trump-Xi Jinping summit in Beijing failed to establish a formal great-power condominium, leaving the strategic boundaries of the Indo-Pacific undefined.",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/the_emergence_of_a_chinese_sphere_by_default_100ef1aa.html",
+      "tags": [
+        "United States",
+        "China",
+        "Trump Administration",
+        "Xi Jinping",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The THORChain Vault Compromise and the Escalating North Korean Crypto-Exfiltration Model",
+      "date": "2026-05-16",
+      "category": "geoCTI",
+      "description": "The theft of $10.7 million from a THORChain vault on Friday morning follows a pattern of high-value protocol-level breaches targeting decentralized finance.",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/the_thorchain_vault_compromise_and_the_escalating_north_kore_5ca54db6.html",
+      "tags": [
+        "THORChain",
+        "North Korean hackers",
+        "US Treasury Department",
+        "Peckshield",
+        "ZachXBT",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "FrostyNeighbor's March 2026 Ukraine Campaign: Targeted Payload Delivery via Ukrtelecom Impersonation",
       "date": "2026-05-15",
       "category": "geoCTI",
