@@ -19,6 +19,92 @@
   ],
   "geoCTI": [
     {
+      "title": "Drone Proliferation and Diplomatic Deadlock: Assessing the Shift in Ukrainian Strikes on Moscow and Russian Cities",
+      "date": "2026-05-18",
+      "category": "geoCTI",
+      "description": "The intensification of Ukrainian drone strikes on Russian urban centers, specifically the recent large-scale attack on Moscow and the Moscow region, marks a fundamental shift in the geographic reach of the conflict.",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/drone_proliferation_and_diplomatic_deadlock_assessing_the_sh_0e5dd637.html",
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "European Union",
+        "NATO",
+        "India",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Information Suppression and Strategic Redirection in Russian State Media Following Moscow Drone Strikes",
+      "date": "2026-05-18",
+      "category": "geoCTI",
+      "description": "On May 17, a large-scale Ukrainian drone strike on Moscow and the Moscow region resulted in three fatalities and sixteen injuries, marking a significant escalation in kinetic reach.",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/information_suppression_and_strategic_redirection_in_russian_40ecc6d8.html",
+      "tags": [
+        "Russia",
+        "Ukraine",
+        "First Channel",
+        "NTV",
+        "Rossiya 1",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Mobile Internet Outages in Russia Drive Sharp Deceleration in Online Grocery Growth",
+      "date": "2026-05-18",
+      "category": "geoCTI",
+      "description": "Russia's online food retail sector experienced its weakest quarterly growth since early 2023, with year-over-year expansion dropping to 23.9% in Q1 2026.",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/mobile_internet_outages_in_russia_drive_sharp_deceleration_i_02ad453c.html",
+      "tags": [
+        "Russia",
+        "Ukraine",
+        "Infoline",
+        "Association of Internet Trade Companies",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Ransomware Ecosystem Fragmentation: Analyzing the Interlock Group's Zero-Day Exploitation and Law Enforcement Disruptions in Q1 2026",
+      "date": "2026-05-18",
+      "category": "geoCTI",
+      "description": "The first quarter of 2026 marks a period of intense volatility for the Ransomware-as-a-Service (RaaS) ecosystem, characterized by simultaneous law enforcement pressure on infrastructure and the rapid weaponization of network appliance vulnerabilities.",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/ransomware_ecosystem_fragmentation_analyzing_the_interlock_g_3b42d764.html",
+      "tags": [
+        "Interlock group",
+        "Clop",
+        "The Gentlemen",
+        "FBI",
+        "BlackCat",
+        "Yanluowang",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "The ITAR Paradox: How Export Controls Risk Ceding U.S. Military Superiority to China",
+      "date": "2026-05-18",
+      "category": "geoCTI",
+      "description": "The United States maintains a dominant position in global arms transfers, yet rigid adherence to Cold War-era International Traffic in Arms Regulations (ITAR) is creating a supply-side crisis for key allies.",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/the_itar_paradox_how_export_controls_risk_ceding_us_military_4ad43487.html",
+      "tags": [
+        "United States",
+        "China",
+        "Japan",
+        "Taiwan",
+        "Anduril Industries",
+        "Soviet Union",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "Credential Exfiltration via TanStack Supply Chain Compromise Targets OpenAI Internal Repositories",
       "date": "2026-05-16",
       "category": "geoCTI",
