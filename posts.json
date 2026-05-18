@@ -19,23 +19,6 @@
   ],
   "geoCTI": [
     {
-      "title": "Drone Proliferation and Diplomatic Deadlock: Assessing the Shift in Ukrainian Strikes on Moscow and Russian Cities",
-      "date": "2026-05-18",
-      "category": "geoCTI",
-      "description": "The intensification of Ukrainian drone strikes on Russian urban centers, specifically the recent large-scale attack on Moscow and the Moscow region, marks a fundamental shift in the geographic reach of the conflict.",
-      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/drone_proliferation_and_diplomatic_deadlock_assessing_the_sh_0e5dd637.html",
-      "tags": [
-        "Ukraine",
-        "Russia",
-        "European Union",
-        "NATO",
-        "India",
-        "CTI",
-        "attacks",
-        "breaking"
-      ]
-    },
-    {
       "title": "Electronic Warfare Redirection: Analyzing the Lithuanian Drone Incursion",
       "date": "2026-05-18",
       "category": "geoCTI",
@@ -70,23 +53,6 @@
       ]
     },
     {
-      "title": "Information Suppression and Strategic Redirection in Russian State Media Following Moscow Drone Strikes",
-      "date": "2026-05-18",
-      "category": "geoCTI",
-      "description": "On May 17, a large-scale Ukrainian drone strike on Moscow and the Moscow region resulted in three fatalities and sixteen injuries, marking a significant escalation in kinetic reach.",
-      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/information_suppression_and_strategic_redirection_in_russian_40ecc6d8.html",
-      "tags": [
-        "Russia",
-        "Ukraine",
-        "First Channel",
-        "NTV",
-        "Rossiya 1",
-        "CTI",
-        "attacks",
-        "breaking"
-      ]
-    },
-    {
       "title": "Mobile Internet Outages in Russia Drive Sharp Deceleration in Online Grocery Growth",
       "date": "2026-05-18",
       "category": "geoCTI",
@@ -103,15 +69,17 @@
       ]
     },
     {
-      "title": "Peskov's Omission of Moscow Drone Strikes Signals Kremlin Strategy of Controlled Escalation",
+      "title": "Moscow Drone Strikes and Russian State Media Control: A Meduza Source Cluster",
       "date": "2026-05-18",
       "category": "geoCTI",
-      "description": "Dmitry Peskov's recent rhetoric regarding Ukrainian drone strikes on civilian infrastructure deliberately excludes the massive May 17 attack on Moscow and the Moscow region.",
-      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/peskovs_omission_of_moscow_drone_strikes_signals_kremlin_str_19922621.html",
+      "description": "Four Meduza items on the May 17 Moscow drone strikes are best treated as one source cluster about Russian narrative control, domestic vulnerability, and stalled diplomacy.",
+      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/information_suppression_and_strategic_redirection_in_russian_40ecc6d8.html",
       "tags": [
         "Russia",
         "Ukraine",
-        "United States",
+        "Kremlin",
+        "Russian State Media",
+        "Meduza",
         "CTI",
         "attacks",
         "breaking"
@@ -130,20 +98,6 @@
         "FBI",
         "BlackCat",
         "Yanluowang",
-        "CTI",
-        "attacks",
-        "breaking"
-      ]
-    },
-    {
-      "title": "Russian State Media Delay Tactics in Moscow Drone Strike Coverage",
-      "date": "2026-05-18",
-      "category": "geoCTI",
-      "description": "Russian state television channels, including Channel One, Russia-1, and NTV, intentionally delayed and minimized coverage of the May 17 Ukrainian drone strike on Moscow.",
-      "link": "https://geocti.5ilent5pring.org/posts/geoCTI/russian_state_media_delay_tactics_in_moscow_drone_strike_cov_fa92e65e.html",
-      "tags": [
-        "Russia",
-        "Ukraine",
         "CTI",
         "attacks",
         "breaking"
