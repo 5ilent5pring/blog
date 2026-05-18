@@ -22,6 +22,40 @@
       ]
     },
     {
+      "title": "Electronic Warfare Redirection: Analyzing the Lithuanian Drone Incursion",
+      "date": "2026-05-18",
+      "category": "geoCTI",
+      "description": "A Ukrainian drone crashed in Lithuania's Utena district on May 17, following a similar airspace violation in Latvia.",
+      "link": "posts/geoCTI/electronic_warfare_redirection_analyzing_the_lithuanian_dron_d164027c.html",
+      "tags": [
+        "Lithuania",
+        "Ukraine",
+        "Russia",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Indonesia's Visa Policy Revisions Target Transnational Cyber-Scam Migration",
+      "date": "2026-05-18",
+      "category": "geoCTI",
+      "description": "Indonesian authorities are actively dismantling cyber-scam and illegal gambling compounds in Batam, Jakarta, and Bali, leading to the detention of over 550 suspects.",
+      "link": "posts/geoCTI/indonesias_visa_policy_revisions_target_transnational_cyber_eb90a2d7.html",
+      "tags": [
+        "Indonesia",
+        "China",
+        "Philippines",
+        "Myanmar",
+        "Cambodia",
+        "Thailand",
+        "Malaysia",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "Information Suppression and Strategic Redirection in Russian State Media Following Moscow Drone Strikes",
       "date": "2026-05-18",
       "category": "geoCTI",
@@ -55,6 +89,21 @@
       ]
     },
     {
+      "title": "Peskov's Omission of Moscow Drone Strikes Signals Kremlin Strategy of Controlled Escalation",
+      "date": "2026-05-18",
+      "category": "geoCTI",
+      "description": "Dmitry Peskov's recent rhetoric regarding Ukrainian drone strikes on civilian infrastructure deliberately excludes the massive May 17 attack on Moscow and the Moscow region.",
+      "link": "posts/geoCTI/peskovs_omission_of_moscow_drone_strikes_signals_kremlin_str_19922621.html",
+      "tags": [
+        "Russia",
+        "Ukraine",
+        "United States",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
       "title": "Ransomware Ecosystem Fragmentation: Analyzing the Interlock Group's Zero-Day Exploitation and Law Enforcement Disruptions in Q1 2026",
       "date": "2026-05-18",
       "category": "geoCTI",
@@ -67,6 +116,36 @@
         "FBI",
         "BlackCat",
         "Yanluowang",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "Russian State Media Delay Tactics in Moscow Drone Strike Coverage",
+      "date": "2026-05-18",
+      "category": "geoCTI",
+      "description": "Russian state television channels, including Channel One, Russia-1, and NTV, intentionally delayed and minimized coverage of the May 17 Ukrainian drone strike on Moscow.",
+      "link": "posts/geoCTI/russian_state_media_delay_tactics_in_moscow_drone_strike_cov_fa92e65e.html",
+      "tags": [
+        "Russia",
+        "Ukraine",
+        "CTI",
+        "attacks",
+        "breaking"
+      ]
+    },
+    {
+      "title": "South Korea's Election Law Enforcement: A Regulatory Stress Test for AI-Generated Disinformation",
+      "date": "2026-05-18",
+      "category": "geoCTI",
+      "description": "South Korea is implementing a dual-track regulatory framework, comprising the Public Official Election Act and the AI Basic Act, to criminalize and label deepfake content during the June 3 local elections.",
+      "link": "posts/geoCTI/south_koreas_election_law_enforcement_a_regulatory_stress_te_5b1df79f.html",
+      "tags": [
+        "South Korea",
+        "National Police Agency (KNPA)",
+        "National Election Commission",
+        "Adaptive Security",
         "CTI",
         "attacks",
         "breaking"
